@@ -23,6 +23,15 @@
 
 <script>
 export default {
+    asyncData: function(store, router){
+        
+        if(router === 'private'){
+            store.dispatch('getMembers');
+        }else{
+            store.dispatch('getDepts');
+        }
+        
+    }
 }
 </script>
 

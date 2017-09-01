@@ -6,12 +6,12 @@
     <router-link to="/test">to 测试</router-link>
   </div>
 </template>
-  
+
 <script>
 export default {
   name: 'hello',
   computed: {
-    count () {
+    count(){
       return this.$store.state.count
     }
   },
