@@ -1,56 +1,79 @@
 let webpack = require('webpack');
 let path = require("path");
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
     output: {
         path: path.resolve(__dirname, "../", 'dist/'),
         filename: "[name].js",
         //配置按需加载[chunkhash:5]
-        chunkFilename: '[name].[hash:5].js'
+        chunkFilename: '[name].trunk.js'
     },
     module: {
         rules: [
             {
                 test: /\.vue$/,
-                loader: 'vue-loader',
-                options: {
-                    loaders: {
-                        'css': 'vue-style-loader!css-loader!postcss-loader',
-                        'scss': 'vue-style-loader!css-loader!sass-loader',
-                        'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax',
+                use: [{
+                        loader: 'vue-loader',
+                        options: {
+                            loaders: {
+                                'css': ExtractTextPlugin.extract({
+                                    fallback: 'vue-style-loader',
+                                    //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
+                                    use: ['css-loader', 'postcss-loader']
+                                }),
+                                'scss': ExtractTextPlugin.extract({
+                                    fallback: 'vue-style-loader',
+                                    //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
+                                    use: ['css-loader', 'sass-loader']
+                                })
+                            }
+                        }
                     }
-                }
+                ]
             },
             {
                 test: /\.tsx?$/,
-                loader: 'ts-loader',
-                exclude: /node_modules/,
-                options: {
-                    appendTsSuffixTo: [/\.vue$/],
-                }
+                use: [{
+                    loader: 'ts-loader',
+                    options: {
+                        appendTsSuffixTo: [/\.vue$/],
+                    }
+                }],
+                exclude: /node_modules/
             },
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
+                use: ['babel-loader'],
                 exclude: /node_modules/
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!postcss-loader'
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
+                    use: ['css-loader', 'postcss-loader']
+                })
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]?[hash]'
-                }
+                use: [{
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]?[hash]'
+                    }
+                }]
             }
         ]
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.vue', '.json'],
         alias: {
-          vue: 'vue/dist/vue.js'
+            vue: 'vue/dist/vue.js'
         }
-      },
+    },
+    plugins: [
+        //提取css
+        new ExtractTextPlugin('styles/[name].css'),
+    ]
 }
