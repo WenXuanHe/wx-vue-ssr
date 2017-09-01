@@ -9,6 +9,7 @@ export function createRouter() {
 
     return new Router({
         mode: 'history',
+        base: __dirname,
         routes: [
             { path: '/index', component: Home },
             { path: '/test', component: Test },

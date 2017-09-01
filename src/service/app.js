@@ -8,7 +8,8 @@ const bodyparser = require('koa-bodyparser')();
 const render = require('koa-swig');
 const co = require('co');
 const path = require('path');
-const historyFallback = require('koa2-history-api-fallback')
+const history = require('connect-history-api-fallback');
+// const historyFallback = require('koa2-history-api-fallback')
 const index = require('./routes/index')
 // error handler
 onerror(app);
@@ -25,12 +26,12 @@ app.context.render = co.wrap(render({
 app.use(bodyparser);
 app.use(json());
 app.use(require('koa-static')(path.resolve(__dirname, '../../', 'dist')));
-app.use(historyFallback())
+// app.use(historyFallback())
 app.use(views(path.resolve(__dirname + '/views'), {
   extension: 'html'
 }));
 
 app.use(index.routes(), index.allowedMethods());
-
+app.use(history());
 app.listen(3000);
 console.log("server on 3000");
