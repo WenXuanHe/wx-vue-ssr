@@ -2,10 +2,6 @@ let webpack = require('webpack');
 let path = require("path");
 
 module.exports = {
-    // entry: {
-    //     client: path.resolve(__dirname, "src/entry-client.js"),
-    //     server: path.resolve(__dirname, "src/entry-server.js")
-    // },
     output: {
         path: path.resolve(__dirname, "../", 'dist/'),
         filename: "[name].js",

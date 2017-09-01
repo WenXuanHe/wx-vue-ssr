@@ -9,4 +9,6 @@ if (window.__INITIAL_STATE__) {
 }
 
 // 这里假定 App.vue 模板中根元素具有 `id="app"`
-app.$mount('#app')
+router.onReady(() => {
+    app.$mount('#app')
+})

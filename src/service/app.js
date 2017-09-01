@@ -1,15 +1,13 @@
-const Koa = require('koa');
+const Koa = require('koa')
 const app = new Koa();
-const router = require('koa-router')();
-const views = require('koa-views');
-const json = require('koa-json');
-const onerror = require('koa-onerror');
-const bodyparser = require('koa-bodyparser')();
-const render = require('koa-swig');
-const co = require('co');
-const path = require('path');
-const history = require('connect-history-api-fallback');
-// const historyFallback = require('koa2-history-api-fallback')
+const router = require('koa-router')()
+const views = require('koa-views')
+const json = require('koa-json')
+const onerror = require('koa-onerror')
+const bodyparser = require('koa-bodyparser')()
+const render = require('koa-swig')
+const co = require('co')
+const path = require('path')
 const index = require('./routes/index')
 // error handler
 onerror(app);
@@ -32,6 +30,5 @@ app.use(views(path.resolve(__dirname + '/views'), {
 }));
 
 app.use(index.routes(), index.allowedMethods());
-app.use(history());
 app.listen(3000);
 console.log("server on 3000");
