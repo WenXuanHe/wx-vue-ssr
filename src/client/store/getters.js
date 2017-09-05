@@ -14,8 +14,17 @@ export default {
     // 已选择的人数
     choosedPersons: choosedPersons,
 
+    /**
+     * 常用的乘车人
+     */
+    commonPersons: (state) => {
+        let {Persons} = state;
+        return Persons.filter((person) => {
+            return person.isCommon;
+        });
+    },
     characters: (state) => {
-        let {Persons, searchVal} = state;
+        let {Persons} = state;
     },
 
     //是否超过最大可选人数
