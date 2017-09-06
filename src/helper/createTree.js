@@ -7,10 +7,21 @@ var CreateTree  = function (data) {
  * @returns {T|*}
  */
 CreateTree.prototype.getRoot = function (pIdDesc='pId', idDesc='id') {
-    var res = this.data.filter(function (item) {
-        return item[pIdDesc] === item[idDesc];
-    });
-    return res[0];
+    let root = [];
+    if(!this.data.length){
+        return root;
+    }
+
+    root = this.data[0];
+    if(root[pIdDesc]=== root[idDesc]){
+        return root;
+    }
+
+    root = this.data.filter((item) => item[pIdDesc] === item[foreNodeCode]);
+    if(root.length){
+        return root[0];
+    }
+    return root;
 };
 
 /**

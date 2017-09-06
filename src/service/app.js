@@ -9,6 +9,7 @@ const render = require('koa-swig')
 const co = require('co')
 const path = require('path')
 const index = require('./routes/index')
+const apis = require('./routes/apis')
 // error handler
 onerror(app);
 
@@ -30,5 +31,6 @@ app.use(views(path.resolve(__dirname + '/views'), {
 }));
 
 app.use(index.routes(), index.allowedMethods());
+app.use(apis.routes(), apis.allowedMethods());
 app.listen(3000);
 console.log("server on 3000");

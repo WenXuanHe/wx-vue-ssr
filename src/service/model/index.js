@@ -1,37 +1,63 @@
 let data = require('./data');
-let CreateTree = require('../../helper/createTree');
-module.exports = {
+
+class TODO {
 
     /**
-     * 
-     * @param {*} type 1 員工， 2 部門
+     * 获得根元素
      */
-    getInfoByType(type){
-        return (deptNo) => data.deptUserTreeBos.filter((item) => {
+    getRoot() {
 
-                if (typeof item.choosed === 'undefined') item.choosed = false;
+        let root = [];
+        if (!data.deptUserTreeBos.length) {
+            return root;
+        }
 
-                return deptNo ? (item.type === type && item.foreNodeCode === deptNo) : (item.type === type)
-            }
-        )
-    },
-    /**
-     * 獲得部門
-     */
-    getDept(){
-        let getDept = this.getInfoByType(2);
-        return getDept();
-    },
-    /**
-     * 獲得員工
-     */
-    getStaff(deptNo=''){
-        let getStaff = this.getInfoByType(1);
-        return getStaff(deptNo);
-    },
+        root = data.deptUserTreeBos[0];
+        if (root.foreNodeCode === root.domainDeptID) {
+            return root;
+        }
 
-    createTree(){
-        var createTree = new CreateTree(data);
-        return createTree.create('foreNodeCode', 'domainDeptID');
+        root = this.data.filter((item) => item.domainDeptID === item.foreNodeCode);
+        if (root.length) {
+            return root[0];
+        }
+        return root;
     }
+
+    // 补全数据
+    completeData(data) {
+        if(data.type === 1){
+            data.choosed = false;
+            data.isCommon = false;
+            data.character = false;
+        }else{
+            data.children = [];
+        }
+    }
+
+    /**
+     *
+     * @param {*} p_id 父id
+     */
+    getInfoByType(p_id) {
+
+        return data.deptUserTreeBos.filter((item) => {
+            this.completeData(item);
+            return item.foreNodeCode === p_id;
+        });
+    }
+
+    /**
+    * 獲得員工和部门信息
+    */
+    getDeptAndStaff(p_id = '') {
+        if (p_id === '') {
+            p_id = this.getRoot();
+        }
+        return this.getInfoByType(p_id);
+    }
+
 };
+
+module.exports = TODO;
+

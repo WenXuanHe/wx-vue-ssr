@@ -1,10 +1,10 @@
+import { find } from './utils';
+
 export default {
-    chooseByID (state, id) {
-      state.Persons.forEach(function(item){
-          if(item.id === id && !item.choosed){
-              item.choosed = true;
-          }
-      });
+
+    CHOOSE_BY_ID (state, id) {
+        let current = find(state, id);
+        state.choosedPersons.push(current);
     },
     
     /**
@@ -12,7 +12,7 @@ export default {
      * @param {*State} state 
      * @param {*Person} Persons 
      */
-    injectPersons(state, Persons){
+    INJECT_PERSONS(state, Persons){
         state.Persons = Persons;
     },
     /**
@@ -30,6 +30,7 @@ export default {
     SET_SINGLE(state){
         state.maxNum = 1;
     },
+
     increment(state){
         state.count++;
     }

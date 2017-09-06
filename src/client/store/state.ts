@@ -43,16 +43,23 @@ type Person = {
   isSeniorExecutive?: number,
   identityCardInfoList?: Array<IdentityCardInfo>
 }
+type Company = {
+  companyNO: string,
+  companyName: string
+}
 
 type myState = {
   count: number,
   searchVal: string,
   maxNum: number,
   Persons: Array<Person>,
+  choosedPersons: Array<Person>,
+  commonPersons: Array<Person>,
   title: string,
   comContractIsShow: boolean,
   isPrivate: boolean,
-  isSingle: boolean
+  isSingle: boolean,
+  root: Company
 }
 
 const data:myState = {
@@ -63,13 +70,18 @@ const data:myState = {
   // 用户数据
   Persons: [],
   // 常用数据 一定是包含在Person中的
-
   title: '',
-  //是否显示常用联系人
+  //是否显示常用
   comContractIsShow:true,
   //是否因私
   isPrivate: false,
   //只选择单个,说明maxNum应该为1
-  isSingle: false
+  isSingle: false,
+  choosedPersons:[],
+  commonPersons: [],
+  root:{
+    companyNO:'',
+    companyName:''
+  }
 }
 export default data

@@ -7,7 +7,7 @@ const path = require("path")
 module.exports = merge(baseConfig, {
   entry: path.resolve(__dirname, "../", "src/entry-client.js"),
   plugins: [
-    new webpack.NoErrorsPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
     // 重要信息：这将 webpack 运行时分离到一个引导 chunk 中，
     // 以便可以在之后正确注入异步 chunk。
     // 这也为你的 应用程序/vendor 代码提供了更好的缓存。
