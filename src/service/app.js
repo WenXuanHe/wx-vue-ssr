@@ -32,5 +32,5 @@ app.use(views(path.resolve(__dirname + '/views'), {
 
 app.use(index.routes(), index.allowedMethods());
 app.use(apis.routes(), apis.allowedMethods());
-app.listen(3000);
-console.log("server on 3000");
+app.listen(80);
+console.log("server on 80");

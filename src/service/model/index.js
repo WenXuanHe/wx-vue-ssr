@@ -9,6 +9,7 @@ class TODO {
         data.forEach(function(item){
             map[item.domainDeptID] = item;
         });
+        return map;
     }
     /**
      * 获得根元素
@@ -68,14 +69,16 @@ class TODO {
 
     getCommonPassIds(){
         return _.map(commonPassenger, 'StaffNo');
-    },
-
-    getCommonPassenger(){
-        var hashMapById = this.changeMap(data.deptUserTreeBos);
-        var ids = getCommonPassIds();
-        commonPassenger.forEach(function)
     }
 
+    /**
+     * 获得常用乘车人
+     */
+    getCommonPassengerList(){
+        var hashMapById = this.changeMap(data.deptUserTreeBos);
+        var ids = this.getCommonPassIds();
+        return ids.map(id => hashMapById[id]).filter((item) => item);
+    }
 };
 
 module.exports = TODO;

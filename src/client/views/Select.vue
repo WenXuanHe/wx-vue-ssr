@@ -18,19 +18,11 @@ import DepartmentList from '../components/DepartmentList.vue';
 
 export default {
   asyncData: function({store, router}){
-    //   return Promise.all([
-    //       actions.getDeptAndStaff({commit: store.commit}),
-    //       actions.getCompanyInfo({commit: store.commit})
-    // apis/getDeptAndStaff
-    //   ])
-    return axios.post('/apis/getDeptAndStaff').then((Persons) => {
-        // Persons.forEach(function(elem) {
-        //     if(elem.type === 1){
-        //         elem.character = toUpperCase(getCharacter.makeBy(elem.nodeDesc));
-        //     }
-        // });
-        store.commit('INJECT_PERSONS', Persons.data);
-    })
+      return Promise.all([
+          actions.getDeptAndStaff({commit: store.commit}),
+          actions.getCommonPassengerList({commit: store.commit}),
+          actions.getCompanyInfo({commit: store.commit})
+      ])
   },
   components: {
       ChangeClasses,

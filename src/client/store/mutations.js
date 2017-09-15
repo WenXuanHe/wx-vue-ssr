@@ -31,7 +31,16 @@ export default {
         state.maxNum = 1;
     },
 
-    increment(state){
-        state.count++;
+    INJECT_ROOT(state, {companyNO, companyName}){
+        state.root.companyNO = companyNO;
+        state.root.companyName = companyName;
+    },
+
+    INSERT_COMMON_PASSENGERS(state, compassengers){
+        if(typeof compassengers === 'string'){
+            state.commonPersons.push(compassengers);
+        }else {
+            state.commonPersons.push(...compassengers);
+        }
     }
   }

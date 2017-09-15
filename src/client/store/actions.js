@@ -10,19 +10,25 @@ export const toUpperCase = (str) => { String.prototype.toUpperCase.call(str)}
 export default {
 
     getDeptAndStaff({ commit }, p_id){
-        return axios.post('/apis/getDeptAndStaff', {p_id}).then((Persons) => {
-            Persons.forEach(function(elem) {
+        return axios.post('/apis/getDeptAndStaff', {p_id}).then(({data}) => {
+            data.forEach(function(elem) {
                 if(elem.type === 1){
-                    elem.character = toUpperCase(getCharacter.makeBy(elem.nodeDesc));
+                    elem.character = toUpperCase(getCharacter.makePy(elem.nodeDesc));
                 }
             });
-            commit('INJECT_PERSONS', Persons);
+            commit('INJECT_PERSONS', data);
         });
     },
 
     getCompanyInfo({ commit }){
-        return axios.post('/apis/getCompanyInfo').then((data) => {
+        return axios.post('/apis/getCompanyInfo').then(({data}) => {
             commit('INJECT_ROOT', data);
+        });
+    },
+
+    getCommonPassengerList({commit}){
+        return axios.post('/apis/getCommonPassengerList').then(({data}) => {
+            commit('INSERT_COMMON_PASSENGERS', data);
         });
     }
 }
