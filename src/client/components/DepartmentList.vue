@@ -1,7 +1,7 @@
 <template>
   <div class="deptTree">
-		<dept-tree-title></dept-tree-title>
-        <dept-tree-body :member-tree = "departList"></dept-tree-body>
+		<dept-title></dept-title>
+    <dept-body></dept-body>
   </div>
 </template>
 

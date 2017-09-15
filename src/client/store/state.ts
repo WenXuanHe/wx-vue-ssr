@@ -70,7 +70,7 @@ const data:myState = {
   // 用户数据
   Persons: [],
   // 常用数据 一定是包含在Person中的
-  title: '',
+  title: '乘车人',
   //是否显示常用
   comContractIsShow:true,
   //是否因私

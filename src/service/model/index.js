@@ -1,7 +1,15 @@
 let data = require('./data');
+let commonPassenger = require('./commonPassenger');
+let _ = require('lodash');
 
 class TODO {
 
+    changeMap(data){
+        var map = {};
+        data.forEach(function(item){
+            map[item.domainDeptID] = item;
+        });
+    }
     /**
      * 获得根元素
      */
@@ -52,9 +60,20 @@ class TODO {
     */
     getDeptAndStaff(p_id = '') {
         if (p_id === '') {
-            p_id = this.getRoot();
+            p_id = this.getRoot().domainDeptID;
         }
-        return this.getInfoByType(p_id);
+        let result = this.getInfoByType(p_id);
+        return result;
+    }
+
+    getCommonPassIds(){
+        return _.map(commonPassenger, 'StaffNo');
+    },
+
+    getCommonPassenger(){
+        var hashMapById = this.changeMap(data.deptUserTreeBos);
+        var ids = getCommonPassIds();
+        commonPassenger.forEach(function)
     }
 
 };
