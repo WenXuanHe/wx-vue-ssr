@@ -1,14 +1,14 @@
 <template>
   <div class="deptTree">
-		<dept-title></dept-title>
-    <dept-body></dept-body>
+		<depart-title></depart-title>
+    <depart-body></depart-body>
   </div>
 </template>
 
 <script>
 
-import DepartTitle from '../components/DepartTitle.vue'
-import DepartBody from '../components/DepartBody.vue'
+import DepartTitle from './DepartTitle.vue'
+import DepartBody from './DepartBody.vue'
 
 export default {
   

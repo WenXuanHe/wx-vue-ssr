@@ -1,26 +1,39 @@
 <template>
-    <ul class="weui_cells_access">
-        <li v-for="depart in departList" :key='depart.domainDeptID' class="weui_cell">
-            <a href="javascript:void(0);" v-on:click="goNextDeptOrMember(depart.domainDeptID)">{{depart.nodeDesc}}</a>
-            <div class="weui_cell_ft"></div>
-        </li>
-    </ul>
+    <div class="">
+        <depart :departList="departList"></depart>
+        <staff :Members="staffList" :choosedPersons="choosedPersons" v-if="hasStaff"></staff>
+    </div>
+   
 </template>
 
 
 <script>
+import Staff from './Staff.vue'
+import Depart from './Depart.vue'
+
 export default {
     //type = 1的数据加入未分配字段
     computed: {
+        choosedPersons(){
+            return this.$store.state.choosedPersons;
+        },
         departList() {
-            return this.$store.state.persons;
+            return this.$store.state.persons.filter(item => item.type===2);
+        },
+        staffList() {
+            return this.$store.state.persons.filter(item => item.type===1);
+        },
+        hasDepart(){
+            return this.departList.length;
+        },
+        hasStaff(){
+            return this.staffList.length;
         }
     },
-    methods: {
-        goNextDeptOrMember(id){
-            //异步调数据
-            this.$store.dispatch('getDeptAndStaff', id);
-        }
+    components: {
+        'staff': Staff,
+        'depart': Depart
     }
+    
 }
 </script>

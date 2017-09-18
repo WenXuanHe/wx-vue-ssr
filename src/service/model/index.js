@@ -3,12 +3,19 @@ let commonPassenger = require('./commonPassenger');
 let _ = require('lodash');
 
 class TODO {
-
+    constructor(){
+        this.mapPersons=null;
+        this.root = null;
+    }
     changeMap(data){
+        if(this.mapPersons){
+            return this.mapPersons;
+        }
         var map = {};
         data.forEach(function(item){
             map[item.domainDeptID] = item;
         });
+        this.mapPersons = map;
         return map;
     }
     /**
@@ -16,32 +23,22 @@ class TODO {
      */
     getRoot() {
 
+        if(this.root) return this.root;
         let root = [];
         if (!data.deptUserTreeBos.length) {
-            return root;
+            return this.root=root;
         }
 
         root = data.deptUserTreeBos[0];
         if (root.foreNodeCode === root.domainDeptID) {
-            return root;
+            return this.root=root;
         }
 
         root = this.data.filter((item) => item.domainDeptID === item.foreNodeCode);
         if (root.length) {
-            return root[0];
+            return this.root=root[0];
         }
-        return root;
-    }
-
-    // 补全数据
-    completeData(data) {
-        if(data.type === 1){
-            data.choosed = false;
-            data.isCommon = false;
-            data.character = false;
-        }else{
-            data.children = [];
-        }
+        return this.root=root;
     }
 
     /**
@@ -50,21 +47,30 @@ class TODO {
      */
     getInfoByType(p_id) {
 
-        return data.deptUserTreeBos.filter((item) => {
-            this.completeData(item);
-            return item.foreNodeCode === p_id;
+        let departLength = 0;
+        let staffLength = 0;
+        let list =  data.deptUserTreeBos.filter((item) => {
+            if(item.foreNodeCode === p_id && item.foreNodeCode !== item.domainDeptID){
+                return item;
+            }
         });
+        return list;
     }
 
     /**
     * 獲得員工和部门信息
+    * 1.如果部门和员工同时存在，把员工加入未分配组
+    * 2.只有员工，则展示员工组件
     */
-    getDeptAndStaff(p_id = '') {
+    getDeptAndStaff(p_id = '', special='') {
+        if(special === 'NeverAllot'){
+            
+        }
         if (p_id === '') {
             p_id = this.getRoot().domainDeptID;
         }
-        let result = this.getInfoByType(p_id);
-        return result;
+        let list = this.getInfoByType(p_id);
+        return list;
     }
 
     getCommonPassIds(){
@@ -75,9 +81,26 @@ class TODO {
      * 获得常用乘车人
      */
     getCommonPassengerList(){
-        var hashMapById = this.changeMap(data.deptUserTreeBos);
+        var hashMap = this.changeMap(data.deptUserTreeBos);
         var ids = this.getCommonPassIds();
-        return ids.map(id => hashMapById[id]).filter((item) => item);
+        return ids.map(id => hashMap[id]).filter((item) => item);
+    }
+
+    getDepartNames(p_id){
+        var hashMap = this.changeMap(data.deptUserTreeBos);
+        var departNames=[];
+        while(hashMap[p_id]){
+           
+            if(hashMap[p_id].foreNodeCode === hashMap[p_id].domainDeptID){
+                return departNames.reverse();
+            }
+            
+            departNames.push(hashMap[p_id].nodeDesc);
+            
+            p_id = hashMap[p_id].foreNodeCode;
+        }
+
+        return departNames.reverse();
     }
 };
 

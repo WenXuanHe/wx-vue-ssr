@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Select from '../views/Select.vue';
+import SelectStaff from '../views/SelectStaff.vue';
 
 Vue.use(Router);
 
@@ -10,8 +11,9 @@ export function createRouter() {
         mode: 'history',
         base: __dirname,
         routes: [
+            { path: '/index/:p_id', component: Select },
             { path: '/index', component: Select },
-            { path: '/test', component: () => import('../components/Test.vue') },
+            { path: '/selectStaff/:p_id', component: SelectStaff }
         ]
     })
 }

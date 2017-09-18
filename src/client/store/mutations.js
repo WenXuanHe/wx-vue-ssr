@@ -2,9 +2,12 @@ import { find } from './utils';
 
 export default {
 
-    CHOOSE_BY_ID (state, id) {
-        let current = find(state, id);
-        state.choosedPersons.push(current);
+    CHOOSE_BY_INFO (state, info) {
+        state.choosedPersons.push(info);
+    },
+    UNCHOOSE_BY_INFO(state, info){
+        let index = state.choosedPersons.indexOf(info);
+        state.choosedPersons.splice(index, 1);
     },
     
     /**
@@ -13,7 +16,7 @@ export default {
      * @param {*Person} Persons 
      */
     INJECT_PERSONS(state, Persons){
-        state.Persons = Persons;
+        state.persons = Persons;
     },
     /**
      * 改变 是否显示常用联系人
@@ -23,6 +26,18 @@ export default {
     CHANGE_COM_CONTRACT(state, show){
         state.comContractIsShow = show;
     },
+    INSERT_DEPART_NAMES(state, data){
+        if(Array.isArray(data)){
+            state.departNames = [];
+            state.departNames.push(...data);
+        }else{
+            state.departNames.push(data);
+        }
+    },
+    DELETE_DEPART_NAMES(state, len){
+        state.departNames = state.departNames.slice(0, len)
+    },
+    
     /**
      * 设置只选择一个乘车人，将maxNum设置为1
      * @param {*State} state 

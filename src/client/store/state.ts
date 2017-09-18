@@ -52,13 +52,14 @@ type myState = {
   count: number,
   searchVal: string,
   maxNum: number,
-  Persons: Array<Person>,
+  persons: Array<Person>,
   choosedPersons: Array<Person>,
   commonPersons: Array<Person>,
   title: string,
   comContractIsShow: boolean,
   isPrivate: boolean,
   isSingle: boolean,
+  departNames:Array<string>,
   root: Company
 }
 
@@ -68,7 +69,7 @@ const data:myState = {
   // 最大可选人数
   maxNum: 9,
   // 用户数据
-  Persons: [],
+  persons: [],
   // 常用数据 一定是包含在Person中的
   title: '乘车人',
   //是否显示常用
@@ -79,6 +80,7 @@ const data:myState = {
   isSingle: false,
   choosedPersons:[],
   commonPersons: [],
+  departNames:[],
   root:{
     companyNO:'',
     companyName:''

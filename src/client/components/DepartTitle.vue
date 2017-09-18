@@ -1,9 +1,9 @@
 <template>
-  
   <div class="deptTree_companyName">
       <span class="companyDetailPic">
           <span class="companyDetailPicture"></span>
-      </span>{{companyName}}
+      </span>
+      {{companyName}}
     </div>
 </template>
 

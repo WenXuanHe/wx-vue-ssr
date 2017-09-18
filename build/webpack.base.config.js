@@ -69,7 +69,12 @@ module.exports = {
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.vue', '.json'],
         alias: {
-            vue: 'vue/dist/vue.js'
+            'vue': 'vue/dist/vue.js',
+            '$components': path.resolve(__dirname, "../", 'src/client/components'),
+            '$router': path.resolve(__dirname, "../", 'src/client/router'),
+            '$store': path.resolve(__dirname, "../", 'src/client/store'),
+            '$utils': path.resolve(__dirname, "../", 'src/client/utils'),
+            '$views': path.resolve(__dirname, "../", 'src/client/views')
         }
     },
     plugins: [
