@@ -19,7 +19,7 @@ export default {
                 p_id: id,
                 success: function(data) {
                     if (data.filter(item => item.type === 2).length > 0) {
-                        self.$router.push({ path: `/index/${id}`, query:{advance:true} });
+                        self.$router.push({ path: `/index/${id}`});
                     } else {
                         self.$router.push({ path: `/selectStaff/${id}` });
                     }

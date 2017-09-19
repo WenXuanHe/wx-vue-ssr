@@ -12,9 +12,10 @@ import { MapMembers } from '$utils'
 import RightNav from '$components/RightNav.vue'
 import Staff from '$components/Staff.vue'
 import Curmbs from '$components/Curmbs.vue'
+import {asyncData} from '$utils/index'
 
 export default {
-
+    asyncData: asyncData,
     computed: {
         choosedPersons(){
             return this.$store.state.choosedPersons;
