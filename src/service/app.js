@@ -1,20 +1,27 @@
-const Koa = require('koa')
-const app = new Koa();
-const router = require('koa-router')()
-const views = require('koa-views')
-const json = require('koa-json')
-const onerror = require('koa-onerror')
-const bodyparser = require('koa-bodyparser')()
-const render = require('koa-swig')
-const co = require('co')
-const path = require('path')
-const index = require('./routes/index')
-const apis = require('./routes/apis')
+import Koa from 'koa'
+import Router from 'koa-router'
+import views from 'koa-views'
+import json from 'koa-json'
+import onerror from 'koa-onerror'
+import Bodyparser from 'koa-bodyparser'
+import render from 'koa-swig'
+import co from 'co'
+import path from 'path'
+import index from './routes/index'
+import apis from './routes/apis'
+
+const app = new Koa()
+const router = Router()
+const bodyparser = Bodyparser()
+const way = {
+  dist:  path.resolve(__dirname, '../../', 'dist'),
+  views: path.resolve(__dirname, '../../', 'views')
+};
 // error handler
 onerror(app);
 
 app.context.render = co.wrap(render({
-    root: path.resolve(__dirname + '/views'),
+    root: way.views,
     autoescape: true,
     cache: 'memory',
     ext: 'html',
@@ -24,13 +31,14 @@ app.context.render = co.wrap(render({
 // middlewares
 app.use(bodyparser);
 app.use(json());
-app.use(require('koa-static')(path.resolve(__dirname, '../../', 'dist')));
+app.use(require('koa-static')(way.dist));
 // app.use(historyFallback())
-app.use(views(path.resolve(__dirname + '/views'), {
+app.use(views(way.views), {
   extension: 'html'
-}));
+});
 
 app.use(index.routes(), index.allowedMethods());
 app.use(apis.routes(), apis.allowedMethods());
-app.listen(80);
-console.log("server on 80");
+let port = 80;
+app.listen(port);
+console.log(`server on ${port}`);

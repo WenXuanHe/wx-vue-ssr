@@ -1,1657 +1,1426 @@
-export default {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
     "deptUserTreeBos": [{
         "domainDeptID": "20160514232049697402",
         "type": 2,
         "nodeDesc": "四川我要去哪科技股份有限公司",
         "deptNodeName": "四川我要去哪科技股份有限公司",
         "foreNodeCode": "20160514232049697402"
-    },
-    {
+    }, {
         "domainDeptID": "20160514232810768830",
         "type": 2,
         "nodeDesc": "财务中心",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160514232828355130",
         "type": 2,
         "nodeDesc": "差旅壹号云服务",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20160514232848408401",
         "type": 2,
         "nodeDesc": "国内机票事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160514232907933160",
         "type": 2,
         "nodeDesc": "国际机票事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160514233002206153",
         "type": 2,
         "nodeDesc": "综合接听部",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20160516100033231620",
         "type": 2,
         "nodeDesc": "企业信息化部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160516131854139348",
         "type": 2,
         "nodeDesc": "结算部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160516184355481912",
         "type": 2,
         "nodeDesc": "人力行政中心",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160622213511017900",
         "type": 2,
         "nodeDesc": "技术中心",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160622213538018174",
         "type": 2,
         "nodeDesc": "服务与风险管理部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160622213600565124",
         "type": 2,
         "nodeDesc": "保险事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160622213652399185",
         "type": 2,
         "nodeDesc": "清算事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20160623092309571601",
         "type": 2,
         "nodeDesc": "代运营事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20161107155349748181",
         "type": 2,
         "nodeDesc": "北京大数据",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20161123105004704776",
         "type": 2,
         "nodeDesc": "北京差旅壹号旅行社",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20161227160140789100",
         "type": 2,
         "nodeDesc": "上海趣卫",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155448513147",
         "type": 2,
         "nodeDesc": "集团董事会",
         "deptNodeName": "四川我要去哪儿科技有限公司",
         "foreNodeCode": "20160514232049697402"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155448923672",
         "type": 2,
         "nodeDesc": "517旅行网",
         "deptNodeName": "集团董事会",
         "foreNodeCode": "20170125155448513147"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155449290518",
         "type": 2,
         "nodeDesc": "人力资源部",
         "deptNodeName": "人力行政中心",
         "foreNodeCode": "20160516184355481912"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155449728140",
         "type": 2,
         "nodeDesc": "薪酬组",
         "deptNodeName": "人力资源部",
         "foreNodeCode": "20170125155449290518"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155450096106",
         "type": 2,
         "nodeDesc": "非薪酬组",
         "deptNodeName": "人力资源部",
         "foreNodeCode": "20170125155449290518"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155450582656",
         "type": 2,
         "nodeDesc": "员工关系绩效组",
         "deptNodeName": "薪酬组",
         "foreNodeCode": "20170125155449728140"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155450981124",
         "type": 2,
         "nodeDesc": "国内组",
         "deptNodeName": "非薪酬组",
         "foreNodeCode": "20170125155450096106"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155451384103",
         "type": 2,
         "nodeDesc": "招聘组",
         "deptNodeName": "非薪酬组",
         "foreNodeCode": "20170125155450096106"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155451776179",
         "type": 2,
         "nodeDesc": "新业务组",
         "deptNodeName": "非薪酬组",
         "foreNodeCode": "20170125155450096106"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155452299964",
         "type": 2,
         "nodeDesc": "职能组",
         "deptNodeName": "非薪酬组",
         "foreNodeCode": "20170125155450096106"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155452667886",
         "type": 2,
         "nodeDesc": "后勤部",
         "deptNodeName": "人力行政中心",
         "foreNodeCode": "20160516184355481912"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155453075164",
         "type": 2,
         "nodeDesc": "行政部",
         "deptNodeName": "人力行政中心",
         "foreNodeCode": "20160516184355481912"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155453442156",
         "type": 2,
         "nodeDesc": "保洁",
         "deptNodeName": "西南组",
         "foreNodeCode": "20170407125918650134"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155453962294",
         "type": 2,
         "nodeDesc": "客户接待组",
         "deptNodeName": "西南组",
         "foreNodeCode": "20170407125918650134"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155454415186",
         "type": 2,
         "nodeDesc": "行政秘书",
         "deptNodeName": "西南组",
         "foreNodeCode": "20170407125918650134"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155454837155",
         "type": 2,
         "nodeDesc": "代运营三部",
         "deptNodeName": "代运营事业部",
         "foreNodeCode": "20160623092309571601"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155455450158",
         "type": 2,
         "nodeDesc": "代运营业务组",
         "deptNodeName": "代运营三部",
         "foreNodeCode": "20170125155454837155"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155455833117",
         "type": 2,
         "nodeDesc": "代运营小组",
         "deptNodeName": "代运营三部",
         "foreNodeCode": "20170125155454837155"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155456212444",
         "type": 2,
         "nodeDesc": "代运营二部",
         "deptNodeName": "代运营事业部",
         "foreNodeCode": "20160623092309571601"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155456822121",
         "type": 2,
         "nodeDesc": "代运营业务组",
         "deptNodeName": "代运营二部",
         "foreNodeCode": "20170125155456212444"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155457314157",
         "type": 2,
         "nodeDesc": "代运营业务一组",
         "deptNodeName": "代运营业务组",
         "foreNodeCode": "20170125155456822121"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155457887836",
         "type": 2,
         "nodeDesc": "代运营业务二组",
         "deptNodeName": "代运营业务组",
         "foreNodeCode": "20170125155456822121"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155458519506",
         "type": 2,
         "nodeDesc": "代运营小组",
         "deptNodeName": "代运营二部",
         "foreNodeCode": "20170125155456212444"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155458884574",
         "type": 2,
         "nodeDesc": "代运营五部",
         "deptNodeName": "代运营事业部",
         "foreNodeCode": "20160623092309571601"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155459287486",
         "type": 2,
         "nodeDesc": "代运营四部",
         "deptNodeName": "代运营事业部",
         "foreNodeCode": "20160623092309571601"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155459955171",
         "type": 2,
         "nodeDesc": "BI及内部系统研发部",
         "deptNodeName": "企业信息化部",
         "foreNodeCode": "20160516100033231620"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155500339161",
         "type": 2,
         "nodeDesc": "企业信息化组",
         "deptNodeName": "BI及内部系统研发部",
         "foreNodeCode": "20170125155459955171"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155501165686",
         "type": 2,
         "nodeDesc": "内部开发组",
         "deptNodeName": "BI及内部系统研发部",
         "foreNodeCode": "20170125155459955171"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155501652254",
         "type": 2,
         "nodeDesc": "平台部署运营组",
         "deptNodeName": "BI及内部系统研发部",
         "foreNodeCode": "20170125155459955171"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155502127130",
         "type": 2,
         "nodeDesc": "数据库管理组",
         "deptNodeName": "BI及内部系统研发部",
         "foreNodeCode": "20170125155459955171"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155502495191",
         "type": 2,
         "nodeDesc": "资源管理组",
         "deptNodeName": "BI及内部系统研发部",
         "foreNodeCode": "20170125155459955171"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155502902240",
         "type": 2,
         "nodeDesc": "运行维护部",
         "deptNodeName": "企业信息化部",
         "foreNodeCode": "20160516100033231620"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155503261131",
         "type": 2,
         "nodeDesc": "网络组",
         "deptNodeName": "运行维护部",
         "foreNodeCode": "20170125155502902240"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155503653174",
         "type": 2,
         "nodeDesc": "代运营一部",
         "deptNodeName": "代运营事业部",
         "foreNodeCode": "20160623092309571601"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155504029352",
         "type": 2,
         "nodeDesc": "代运营业务组",
         "deptNodeName": "代运营一部",
         "foreNodeCode": "20170125155503653174"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155504419134",
         "type": 2,
         "nodeDesc": "代运营小组",
         "deptNodeName": "代运营一部",
         "foreNodeCode": "20170125155503653174"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155504966828",
         "type": 2,
         "nodeDesc": "出票运营部",
         "deptNodeName": "后台服务部",
         "foreNodeCode": "20170407125918967187"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155505449156",
         "type": 2,
         "nodeDesc": "出票产品组",
         "deptNodeName": "出票运营部",
         "foreNodeCode": "20170125155504966828"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155505816472",
         "type": 2,
         "nodeDesc": "国内官网出票组",
         "deptNodeName": "出票运营部",
         "foreNodeCode": "20170125155504966828"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155506232794",
         "type": 2,
         "nodeDesc": "国内官网出票一组",
         "deptNodeName": "国内官网出票组",
         "foreNodeCode": "20170125155505816472"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155506670688",
         "type": 2,
         "nodeDesc": "国内待出票组",
         "deptNodeName": "出票运营部",
         "foreNodeCode": "20170125155504966828"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155507069124",
         "type": 2,
         "nodeDesc": "国内待出票一组",
         "deptNodeName": "国内待出票组",
         "foreNodeCode": "20170125155506670688"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155507454196",
         "type": 2,
         "nodeDesc": "国内待出票二组",
         "deptNodeName": "国内待出票组",
         "foreNodeCode": "20170125155506670688"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155507837112",
         "type": 2,
         "nodeDesc": "国内暂不能出票组",
         "deptNodeName": "出票运营部",
         "foreNodeCode": "20170125155504966828"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155508222890",
         "type": 2,
         "nodeDesc": "国内暂不能一组",
         "deptNodeName": "国内暂不能出票组",
         "foreNodeCode": "20170125155507837112"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155508626188",
         "type": 2,
         "nodeDesc": "国内暂不能二组",
         "deptNodeName": "国内暂不能出票组",
         "foreNodeCode": "20170125155507837112"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155508997112",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "出票运营部",
         "foreNodeCode": "20170125155504966828"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155509407198",
         "type": 2,
         "nodeDesc": "国内技术中心",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155509787860",
         "type": 2,
         "nodeDesc": "国内紧急业务组",
         "deptNodeName": "综合接听部",
         "foreNodeCode": "20160514233002206153"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155510176112",
         "type": 2,
         "nodeDesc": "国内紧急业务一组",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170125155509787860"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155511106926",
         "type": 2,
         "nodeDesc": "国内紧急业务二组",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170125155509787860"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155513033122",
         "type": 2,
         "nodeDesc": "紧急业务组新入职",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170125155509787860"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155513427130",
         "type": 2,
         "nodeDesc": "国内综合咨询组",
         "deptNodeName": "综合接听部",
         "foreNodeCode": "20160514233002206153"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155514251334",
         "type": 2,
         "nodeDesc": "国内综合咨询一组",
         "deptNodeName": "国内综合咨询组",
         "foreNodeCode": "20170125155513427130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155514638138",
         "type": 2,
         "nodeDesc": "国内综合咨询三组",
         "deptNodeName": "国内综合咨询组",
         "foreNodeCode": "20170125155513427130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155515086406",
         "type": 2,
         "nodeDesc": "国内综合咨询二组",
         "deptNodeName": "国内综合咨询组",
         "foreNodeCode": "20170125155513427130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155515580738",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "综合接听部",
         "foreNodeCode": "20160514233002206153"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155515934183",
         "type": 2,
         "nodeDesc": "国内运营部",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155516653178",
         "type": 2,
         "nodeDesc": "VIP组",
         "deptNodeName": "接听服务部",
         "foreNodeCode": "20170407125920961143"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155517034222",
         "type": 2,
         "nodeDesc": "供应商部新入职",
         "deptNodeName": "国内运营部",
         "foreNodeCode": "20170125155515934183"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155517510166",
         "type": 2,
         "nodeDesc": "VIP轮岗",
         "deptNodeName": "供应商部新入职",
         "foreNodeCode": "20170125155517034222"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155517949768",
         "type": 2,
         "nodeDesc": "暂不能轮岗",
         "deptNodeName": "供应商部新入职",
         "foreNodeCode": "20170125155517034222"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155518315240",
         "type": 2,
         "nodeDesc": "综合轮岗",
         "deptNodeName": "供应商部新入职",
         "foreNodeCode": "20170125155517034222"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155518736122",
         "type": 2,
         "nodeDesc": "退款轮岗",
         "deptNodeName": "供应商部新入职",
         "foreNodeCode": "20170125155517034222"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155519147110",
         "type": 2,
         "nodeDesc": "供应部",
         "deptNodeName": "国内运营部",
         "foreNodeCode": "20170125155515934183"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155519673162",
         "type": 2,
         "nodeDesc": "上海区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155520122175",
         "type": 2,
         "nodeDesc": "云南区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155520719764",
         "type": 2,
         "nodeDesc": "北京区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155521689498",
         "type": 2,
         "nodeDesc": "川藏区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155522186368",
         "type": 2,
         "nodeDesc": "广州区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155522736117",
         "type": 2,
         "nodeDesc": "江苏区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155523201135",
         "type": 2,
         "nodeDesc": "浙皖区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155523727146",
         "type": 2,
         "nodeDesc": "海南区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155524097185",
         "type": 2,
         "nodeDesc": "深圳区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155524576142",
         "type": 2,
         "nodeDesc": "重庆区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155525057580",
         "type": 2,
         "nodeDesc": "长沙区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155525428328",
         "type": 2,
         "nodeDesc": "闽陕区域",
         "deptNodeName": "供应部",
         "foreNodeCode": "20170125155519147110"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155525993145",
         "type": 2,
         "nodeDesc": "退款运营部",
         "deptNodeName": "后台服务部",
         "foreNodeCode": "20170407125918967187"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155526444141",
         "type": 2,
         "nodeDesc": "国内变更服务组",
         "deptNodeName": "退款运营部",
         "foreNodeCode": "20170125155525993145"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155526975111",
         "type": 2,
         "nodeDesc": "国内变更一组",
         "deptNodeName": "国内变更服务组",
         "foreNodeCode": "20170125155526444141"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155527361163",
         "type": 2,
         "nodeDesc": "国内变更二组",
         "deptNodeName": "国内变更服务组",
         "foreNodeCode": "20170125155526444141"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155527734598",
         "type": 2,
         "nodeDesc": "国内航废业务组",
         "deptNodeName": "退款运营部",
         "foreNodeCode": "20170125155525993145"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155528116125",
         "type": 2,
         "nodeDesc": "国内航废业务一组",
         "deptNodeName": "国内航废业务组",
         "foreNodeCode": "20170125155527734598"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155528896180",
         "type": 2,
         "nodeDesc": "国内退款审核组",
         "deptNodeName": "退款运营部",
         "foreNodeCode": "20170125155525993145"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155529245996",
         "type": 2,
         "nodeDesc": "国内审核一组",
         "deptNodeName": "国内退款审核组",
         "foreNodeCode": "20170125155528896180"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155529655109",
         "type": 2,
         "nodeDesc": "国内审核二组",
         "deptNodeName": "国内退款审核组",
         "foreNodeCode": "20170125155528896180"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155530002108",
         "type": 2,
         "nodeDesc": "审核组新入职",
         "deptNodeName": "国内退款审核组",
         "foreNodeCode": "20170125155528896180"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155530403486",
         "type": 2,
         "nodeDesc": "国内退款沟通组",
         "deptNodeName": "退款运营部",
         "foreNodeCode": "20170125155525993145"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155530973134",
         "type": 2,
         "nodeDesc": "一组",
         "deptNodeName": "国内退款沟通组",
         "foreNodeCode": "20170125155530403486"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155531343706",
         "type": 2,
         "nodeDesc": "退款产品组",
         "deptNodeName": "退款运营部",
         "foreNodeCode": "20170125155525993145"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155531816286",
         "type": 2,
         "nodeDesc": "国际服务部",
         "deptNodeName": "国际运营部",
         "foreNodeCode": "20170125155535921356"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155532295114",
         "type": 2,
         "nodeDesc": "国际综合服务部",
         "deptNodeName": "国际服务部",
         "foreNodeCode": "20170125155531816286"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155532733147",
         "type": 2,
         "nodeDesc": "国际综合服务一组",
         "deptNodeName": "国际综合服务部",
         "foreNodeCode": "20170125155532295114"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155533106852",
         "type": 2,
         "nodeDesc": "国际综合服务二组",
         "deptNodeName": "国际综合服务部",
         "foreNodeCode": "20170125155532295114"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155533508176",
         "type": 2,
         "nodeDesc": "国际退改签组",
         "deptNodeName": "国际服务部",
         "foreNodeCode": "20170125155531816286"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155533897201",
         "type": 2,
         "nodeDesc": "国际变更服务组",
         "deptNodeName": "国际退改签组",
         "foreNodeCode": "20170125155533508176"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155534295169",
         "type": 2,
         "nodeDesc": "国际变更一组",
         "deptNodeName": "国际变更服务组",
         "foreNodeCode": "20170125155533897201"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155534690201",
         "type": 2,
         "nodeDesc": "国际退款服务组",
         "deptNodeName": "国际退改签组",
         "foreNodeCode": "20170125155533508176"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155535067228",
         "type": 2,
         "nodeDesc": "国际退款服务一组",
         "deptNodeName": "国际退款服务组",
         "foreNodeCode": "20170125155534690201"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155535448446",
         "type": 2,
         "nodeDesc": "产品部",
         "deptNodeName": "国际机票事业部",
         "foreNodeCode": "20160514232907933160"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155535921356",
         "type": 2,
         "nodeDesc": "国际运营部",
         "deptNodeName": "国际机票事业部",
         "foreNodeCode": "20160514232907933160"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155536334166",
         "type": 2,
         "nodeDesc": "QA质量保障部",
         "deptNodeName": "技术中心",
         "foreNodeCode": "20160622213511017900"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155536706146",
         "type": 2,
         "nodeDesc": "国内技术中心",
         "deptNodeName": "技术中心",
         "foreNodeCode": "20160622213511017900"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155537181830",
         "type": 2,
         "nodeDesc": "国内技术一组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155537631154",
         "type": 2,
         "nodeDesc": "国内技术三组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155538035760",
         "type": 2,
         "nodeDesc": "国内技术二组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155538399360",
         "type": 2,
         "nodeDesc": "国内技术五组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155538773590",
         "type": 2,
         "nodeDesc": "国内技术六组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155539167154",
         "type": 2,
         "nodeDesc": "国内技术四组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155536706146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155539530792",
         "type": 2,
         "nodeDesc": "技术中心办公室",
         "deptNodeName": "技术中心",
         "foreNodeCode": "20160622213511017900"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155539964944",
         "type": 2,
         "nodeDesc": "投诉部",
         "deptNodeName": "服务与风险管理部",
         "foreNodeCode": "20160622213538018174"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155540404630",
         "type": 2,
         "nodeDesc": "投诉组",
         "deptNodeName": "投诉部",
         "foreNodeCode": "20170125155539964944"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155540857968",
         "type": 2,
         "nodeDesc": "投诉一组",
         "deptNodeName": "投诉组",
         "foreNodeCode": "20170125155540404630"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155541234146",
         "type": 2,
         "nodeDesc": "投诉二组",
         "deptNodeName": "投诉组",
         "foreNodeCode": "20170125155540404630"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155541598138",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "投诉组",
         "foreNodeCode": "20170125155540404630"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155542131132",
         "type": 2,
         "nodeDesc": "服务组",
         "deptNodeName": "服务与风险管理部",
         "foreNodeCode": "20160622213538018174"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155542614920",
         "type": 2,
         "nodeDesc": "风控组",
         "deptNodeName": "服务与风险管理部",
         "foreNodeCode": "20160622213538018174"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155542976772",
         "type": 2,
         "nodeDesc": "快递服务组",
         "deptNodeName": "结算部",
         "foreNodeCode": "20160516131854139348"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155543335472",
         "type": 2,
         "nodeDesc": "结算组",
         "deptNodeName": "结算部",
         "foreNodeCode": "20160516131854139348"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155543706741",
         "type": 2,
         "nodeDesc": "财务部",
         "deptNodeName": "财务中心",
         "foreNodeCode": "20160514232810768830"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155544093170",
         "type": 2,
         "nodeDesc": "517na",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155543706741"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155544507762",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "旅行社组",
         "foreNodeCode": "20170125155544855862"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155544855862",
         "type": 2,
         "nodeDesc": "旅行社组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155543706741"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155545230163",
         "type": 2,
         "nodeDesc": "清算系统组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155543706741"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155545632924",
         "type": 2,
         "nodeDesc": "审核项目组",
         "deptNodeName": "清算系统组",
         "foreNodeCode": "20170125155545230163"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155546012148",
         "type": 2,
         "nodeDesc": "用友记账组",
         "deptNodeName": "清算系统组",
         "foreNodeCode": "20170125155545230163"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155546410156",
         "type": 2,
         "nodeDesc": "系统核销组",
         "deptNodeName": "清算系统组",
         "foreNodeCode": "20170125155545230163"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155546784161",
         "type": 2,
         "nodeDesc": "财务部",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155543706741"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155547578153",
         "type": 2,
         "nodeDesc": "非旅行社子公司组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155543706741"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155547979508",
         "type": 2,
         "nodeDesc": "资金管理组",
         "deptNodeName": "财务中心",
         "foreNodeCode": "20160514232810768830"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155548364384",
         "type": 2,
         "nodeDesc": "子公司",
         "deptNodeName": "集团董事会",
         "foreNodeCode": "20170125155448513147"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155548726129",
         "type": 2,
         "nodeDesc": "华东营销中心",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155549103832",
         "type": 2,
         "nodeDesc": "义乌泛美",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155549525155",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "义乌泛美",
         "foreNodeCode": "20170125155549103832"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155549903143",
         "type": 2,
         "nodeDesc": "技术组",
         "deptNodeName": "北京大数据",
         "foreNodeCode": "20161107155349748181"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155550309874",
         "type": 2,
         "nodeDesc": "差旅邮件营销一组",
         "deptNodeName": "北京差旅壹号旅行社",
         "foreNodeCode": "20161123105004704776"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155550719100",
         "type": 2,
         "nodeDesc": "差旅邮件营销二组",
         "deptNodeName": "北京差旅壹号旅行社",
         "foreNodeCode": "20161123105004704776"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155551114194",
         "type": 2,
         "nodeDesc": "差旅邮件营销三组",
         "deptNodeName": "北京差旅壹号旅行社",
         "foreNodeCode": "20161123105004704776"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155552192196",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "北京差旅壹号旅行社",
         "foreNodeCode": "20161123105004704776"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155553062648",
         "type": 2,
         "nodeDesc": "天下票仓",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155553518173",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "天下票仓",
         "foreNodeCode": "20170125155553062648"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155553986106",
         "type": 2,
         "nodeDesc": "地面交通组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155554518169",
         "type": 2,
         "nodeDesc": "差旅产品部",
         "deptNodeName": "差旅壹号云服务",
         "foreNodeCode": "20160514232828355130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155555175161",
         "type": 2,
         "nodeDesc": "差旅产品部",
         "deptNodeName": "差旅产品部",
         "foreNodeCode": "20170125155554518169"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155555732412",
         "type": 2,
         "nodeDesc": "用户体验组",
         "deptNodeName": "差旅产品部",
         "foreNodeCode": "20170125155554518169"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155556131142",
         "type": 2,
         "nodeDesc": "差旅技术中心",
         "deptNodeName": "差旅壹号云服务",
         "foreNodeCode": "20160514232828355130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155556502538",
         "type": 2,
         "nodeDesc": "Android组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155557044678",
         "type": 2,
         "nodeDesc": "iOS组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155557806140",
         "type": 2,
         "nodeDesc": "研发一组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155558175124",
         "type": 2,
         "nodeDesc": "研发三组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155558567159",
         "type": 2,
         "nodeDesc": "研发二组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155558941193",
         "type": 2,
         "nodeDesc": "差旅新入职",
         "deptNodeName": "差旅壹号云服务",
         "foreNodeCode": "20160514232828355130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155559309192",
         "type": 2,
         "nodeDesc": "差旅运营部",
         "deptNodeName": "差旅壹号云服务",
         "foreNodeCode": "20160514232828355130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155559696162",
         "type": 2,
         "nodeDesc": "差旅产品支持组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155600402166",
         "type": 2,
         "nodeDesc": "差旅国内服务组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155601725700",
         "type": 2,
         "nodeDesc": "差旅国际服务组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155602511121",
         "type": 2,
         "nodeDesc": "差旅火车票服务组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155602904658",
         "type": 2,
         "nodeDesc": "差旅运营组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155604286179",
         "type": 2,
         "nodeDesc": "酒店服务组",
         "deptNodeName": "酒店运营部",
         "foreNodeCode": "20170407125923137372"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155604711154",
         "type": 2,
         "nodeDesc": "差旅项目服务组",
         "deptNodeName": "差旅运营部",
         "foreNodeCode": "20170125155559309192"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155605110116",
         "type": 2,
         "nodeDesc": "酒店技术中心",
         "deptNodeName": "差旅壹号云服务",
         "foreNodeCode": "20160514232828355130"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155605523106",
         "type": 2,
         "nodeDesc": "产品UI部",
         "deptNodeName": "酒店技术中心",
         "foreNodeCode": "20170125155605110116"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155605963301",
         "type": 2,
         "nodeDesc": "研发一组",
         "deptNodeName": "酒店技术部",
         "foreNodeCode": "20170407125922908126"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155606352173",
         "type": 2,
         "nodeDesc": "研发三组",
         "deptNodeName": "酒店技术部",
         "foreNodeCode": "20170407125922908126"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155606847860",
         "type": 2,
         "nodeDesc": "研发四组",
         "deptNodeName": "差旅技术中心",
         "foreNodeCode": "20170125155556131142"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155607351792",
         "type": 2,
         "nodeDesc": "济南海岛",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155607769126",
         "type": 2,
         "nodeDesc": "新入职",
         "deptNodeName": "济南海岛",
         "foreNodeCode": "20170125155607351792"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155608200296",
         "type": 2,
         "nodeDesc": "海岛印象",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155608583212",
         "type": 2,
         "nodeDesc": "财务部",
         "deptNodeName": "海岛印象",
         "foreNodeCode": "20170125155608200296"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155609064175",
         "type": 2,
         "nodeDesc": "会计组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155608583212"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155609460180",
         "type": 2,
         "nodeDesc": "出纳组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155608583212"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155609904146",
         "type": 2,
         "nodeDesc": "草原印象",
         "deptNodeName": "子公司",
         "foreNodeCode": "20170125155548364384"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155610500824",
         "type": 2,
         "nodeDesc": "华南营销中心",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155611142652",
         "type": 2,
         "nodeDesc": "财务部",
         "deptNodeName": "草原印象",
         "foreNodeCode": "20170125155609904146"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155611513177",
         "type": 2,
         "nodeDesc": "会计组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155611142652"
-    },
-    {
+    }, {
         "domainDeptID": "20170125155611946180",
         "type": 2,
         "nodeDesc": "出纳组",
         "deptNodeName": "财务部",
         "foreNodeCode": "20170125155611142652"
-    },
-    {
+    }, {
         "domainDeptID": "20170302112445590208",
         "type": 2,
         "nodeDesc": "航变组",
         "deptNodeName": "国内退款审核组",
         "foreNodeCode": "20170125155528896180"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125917514151",
         "type": 2,
         "nodeDesc": "华东组",
         "deptNodeName": "行政部",
         "foreNodeCode": "20170125155453075164"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125918385661",
         "type": 2,
         "nodeDesc": "华北组",
         "deptNodeName": "行政部",
         "foreNodeCode": "20170125155453075164"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125918524116",
         "type": 2,
         "nodeDesc": "华南组",
         "deptNodeName": "行政部",
         "foreNodeCode": "20170125155453075164"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125918650134",
         "type": 2,
         "nodeDesc": "西南组",
         "deptNodeName": "行政部",
         "foreNodeCode": "20170125155453075164"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125918967187",
         "type": 2,
         "nodeDesc": "后台服务部",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125919091104",
         "type": 2,
         "nodeDesc": "国内产品部",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125919216682",
         "type": 2,
         "nodeDesc": "国内技术一组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920356222",
         "type": 2,
         "nodeDesc": "国内技术三组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920473101",
         "type": 2,
         "nodeDesc": "国内技术二组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920598135",
         "type": 2,
         "nodeDesc": "国内技术五组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920709170",
         "type": 2,
         "nodeDesc": "国内技术六组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920836746",
         "type": 2,
         "nodeDesc": "国内技术四组",
         "deptNodeName": "国内技术中心",
         "foreNodeCode": "20170125155509407198"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125920961143",
         "type": 2,
         "nodeDesc": "接听服务部",
         "deptNodeName": "国内机票事业部",
         "foreNodeCode": "20160514232848408401"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921080126",
         "type": 2,
         "nodeDesc": "国内紧急业务组",
         "deptNodeName": "接听服务部",
         "foreNodeCode": "20170407125920961143"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921209140",
         "type": 2,
         "nodeDesc": "国内紧急业务一组",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170407125921080126"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921319508",
         "type": 2,
         "nodeDesc": "国内紧急业务二组",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170407125921080126"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921440400",
         "type": 2,
         "nodeDesc": "紧急业务组新入职",
         "deptNodeName": "国内紧急业务组",
         "foreNodeCode": "20170407125921080126"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921567183",
         "type": 2,
         "nodeDesc": "国内综合咨询组",
         "deptNodeName": "接听服务部",
         "foreNodeCode": "20170407125920961143"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921680106",
         "type": 2,
         "nodeDesc": "国内综合咨询一组",
         "deptNodeName": "国内综合咨询组",
         "foreNodeCode": "20170407125921567183"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921791196",
         "type": 2,
         "nodeDesc": "国内综合咨询三组",
         "deptNodeName": "国内综合咨询组",
         "foreNodeCode": "20170407125921567183"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125921926414",
         "type": 2,
         "nodeDesc": "国内综合咨询二组",
         "deptNodeName": "国内综合咨询三组",
         "foreNodeCode": "20170407125921791196"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922036149",
         "type": 2,
         "nodeDesc": "营销中心",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922168139",
         "type": 2,
         "nodeDesc": "西南营销中心",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922277490",
         "type": 2,
         "nodeDesc": "邮件营销组",
         "deptNodeName": "市场部",
         "foreNodeCode": "20170616192342001466"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922396172",
         "type": 2,
         "nodeDesc": "邮件营销一组",
         "deptNodeName": "邮件营销组",
         "foreNodeCode": "20170407125922277490"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922530172",
         "type": 2,
         "nodeDesc": "邮件营销二组",
         "deptNodeName": "邮件营销组",
         "foreNodeCode": "20170407125922277490"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922658148",
         "type": 2,
         "nodeDesc": "酒店事业部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922786122",
         "type": 2,
         "nodeDesc": "酒店产品部",
         "deptNodeName": "酒店事业部",
         "foreNodeCode": "20170407125922658148"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125922908126",
         "type": 2,
         "nodeDesc": "酒店技术部",
         "deptNodeName": "酒店事业部",
         "foreNodeCode": "20170407125922658148"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125923027120",
         "type": 2,
         "nodeDesc": "酒店产品部",
         "deptNodeName": "酒店技术部",
         "foreNodeCode": "20170407125922908126"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125923137372",
         "type": 2,
         "nodeDesc": "酒店运营部",
         "deptNodeName": "酒店事业部",
         "foreNodeCode": "20170407125922658148"
-    },
-    {
+    }, {
         "domainDeptID": "20170407125923529152",
         "type": 2,
         "nodeDesc": "华北营销中心",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170616192342001466",
         "type": 2,
         "nodeDesc": "市场部",
         "deptNodeName": "517旅行网",
         "foreNodeCode": "20170125155448923672"
-    },
-    {
+    }, {
         "domainDeptID": "20170627084300224162",
         "type": 2,
         "nodeDesc": "一组",
         "deptNodeName": "代运营业务组",
         "foreNodeCode": "20170125155455450158"
-    },
-    {
+    }, {
         "domainDeptID": "20170627084300535252",
         "type": 2,
         "nodeDesc": "代运营小组",
         "deptNodeName": "代运营五部",
         "foreNodeCode": "20170125155458884574"
-    },
-    {
+    }, {
         "domainDeptID": "20170627084300567100",
         "type": 2,
         "nodeDesc": "代运营业务组",
         "deptNodeName": "代运营五部",
         "foreNodeCode": "20170125155458884574"
-    },
-    {
+    }, {
         "domainDeptID": "20170627193012263422",
         "type": 2,
         "nodeDesc": "酒店运营组",
         "deptNodeName": "酒店运营部",
         "foreNodeCode": "20170407125923137372"
-    },
-    {
+    }, {
         "domainDeptID": "20170710164729195510",
         "type": 2,
         "nodeDesc": "招投标组",
         "deptNodeName": "市场部",
         "foreNodeCode": "20170616192342001466"
-    },
-    {
+    }, {
         "domainDeptID": "20170814170734005144",
         "type": 2,
         "nodeDesc": "大客户部",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170814170734142438",
         "type": 2,
         "nodeDesc": "直销部",
         "deptNodeName": "营销中心",
         "foreNodeCode": "20170407125922036149"
-    },
-    {
+    }, {
         "domainDeptID": "20170817140554311254",
         "type": 2,
         "nodeDesc": "市场部",
         "deptNodeName": "四川我要去哪科技股份有限公司",
         "foreNodeCode": "20160514232049697402"
-    },
-    {
+    }, {
         "domainDeptID": "20170817140554316131",
         "type": 2,
         "nodeDesc": "杭州分部",
         "deptNodeName": "市场部",
         "foreNodeCode": "20170817140554311254"
-    },
-    {
+    }, {
         "domainDeptID": "20160516203205451972",
         "type": 1,
         "nodeDesc": "康珂然",
@@ -1682,8 +1451,7 @@ export default {
             "modifyTime": "2016-05-16 20:32:05",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1702151431093984716vt0a164",
             "number": "20160516203205451972",
             "companyNO": "20160514232049697402",
@@ -1701,8 +1469,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160514233527114164",
         "type": 1,
         "nodeDesc": "刘飞",
@@ -1733,8 +1500,7 @@ export default {
             "modifyTime": "2016-08-11 16:42:12",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1612021158205932327vt07650",
             "number": "20160514233527114164",
             "companyNO": "20160514232049697402",
@@ -1752,8 +1518,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160515162656033126",
         "type": 1,
         "nodeDesc": "邓一波",
@@ -1784,8 +1549,7 @@ export default {
             "modifyTime": "2016-05-22 23:17:11",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1612201704319834078vt07651",
             "number": "20160515162656033126",
             "companyNO": "20160514232049697402",
@@ -1803,8 +1567,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160516114448588610",
         "type": 1,
         "nodeDesc": "周双喜",
@@ -1836,8 +1599,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160622182727933179",
         "type": 1,
         "nodeDesc": "罗洋",
@@ -1868,8 +1630,7 @@ export default {
             "modifyTime": "2017-08-01 09:19:16",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708041340378754011vt0a169",
             "number": "20160622182727933179",
             "companyNO": "20160514232049697402",
@@ -1886,8 +1647,7 @@ export default {
             "modifyTime": "2017-08-04 13:40:59",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708041341296082519vt0a145",
             "number": "20160622182727933179",
             "companyNO": "20160514232049697402",
@@ -1904,8 +1664,7 @@ export default {
             "modifyTime": "2017-08-04 13:41:34",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708041341460724088vt0a122",
             "number": "20160622182727933179",
             "companyNO": "20160514232049697402",
@@ -1923,8 +1682,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160622185954304122",
         "type": 1,
         "nodeDesc": "魏丹",
@@ -1955,8 +1713,7 @@ export default {
             "modifyTime": "2017-07-27 18:11:05",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708011235433459662vt0a122",
             "number": "20160622185954304122",
             "companyNO": "20160514232049697402",
@@ -1974,8 +1731,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160622211400684128",
         "type": 1,
         "nodeDesc": "晏雪峰",
@@ -2006,8 +1762,7 @@ export default {
             "modifyTime": "2017-01-19 11:36:00",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1609011535458052218vt07649",
             "number": "20160622211400684128",
             "companyNO": "20160514232049697402",
@@ -2024,8 +1779,7 @@ export default {
             "modifyTime": "2016-09-01 15:35:45",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1612141428173955009vt07651",
             "number": "20160622211400684128",
             "companyNO": "20160514232049697402",
@@ -2042,8 +1796,7 @@ export default {
             "modifyTime": "2016-12-14 14:28:17",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708010843415898927vt0a145",
             "number": "20160622211400684128",
             "companyNO": "20160514232049697402",
@@ -2061,8 +1814,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623085251271136",
         "type": 1,
         "nodeDesc": "杨芹",
@@ -2094,8 +1846,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623085416332153",
         "type": 1,
         "nodeDesc": "刘婷婷",
@@ -2126,8 +1877,7 @@ export default {
             "modifyTime": "2017-07-27 18:47:15",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707272131009740018vt0a648",
             "number": "20160623085416332153",
             "companyNO": "20160514232049697402",
@@ -2145,8 +1895,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623090931989122",
         "type": 1,
         "nodeDesc": "蒙阿妮",
@@ -2161,8 +1910,7 @@ export default {
         "englishName": "香菱",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091204174118",
         "type": 1,
         "nodeDesc": "汤倩",
@@ -2177,8 +1925,7 @@ export default {
         "englishName": "珑梦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091227278122",
         "type": 1,
         "nodeDesc": "李紫娟",
@@ -2193,8 +1940,7 @@ export default {
         "englishName": "绛雪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091453122179",
         "type": 1,
         "nodeDesc": "陈小阳",
@@ -2226,8 +1972,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623092652499368",
         "type": 1,
         "nodeDesc": "范婷婷",
@@ -2242,8 +1987,7 @@ export default {
         "englishName": "希澈",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623092716070656",
         "type": 1,
         "nodeDesc": "杨雪",
@@ -2258,8 +2002,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623094423776742",
         "type": 1,
         "nodeDesc": "张瑜",
@@ -2274,8 +2017,7 @@ export default {
         "englishName": "雨沫",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160624093501102148",
         "type": 1,
         "nodeDesc": "杨莉",
@@ -2290,8 +2032,7 @@ export default {
         "englishName": "韵华",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160624173257869700",
         "type": 1,
         "nodeDesc": "杨德丽",
@@ -2306,8 +2047,7 @@ export default {
         "englishName": "玄机",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160624221425926238",
         "type": 1,
         "nodeDesc": "宋毅慧",
@@ -2322,8 +2062,7 @@ export default {
         "englishName": "连城",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160628112455152157",
         "type": 1,
         "nodeDesc": "梁国发",
@@ -2355,8 +2094,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160628192418411446",
         "type": 1,
         "nodeDesc": "陈杰",
@@ -2371,8 +2109,7 @@ export default {
         "englishName": "昊天",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160628192428094690",
         "type": 1,
         "nodeDesc": "张桂丽",
@@ -2387,8 +2124,7 @@ export default {
         "englishName": "绿萼",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160629111844811884",
         "type": 1,
         "nodeDesc": "袁婷",
@@ -2403,8 +2139,7 @@ export default {
         "englishName": "凤至",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160701171421615194",
         "type": 1,
         "nodeDesc": "肖唯",
@@ -2419,8 +2154,7 @@ export default {
         "englishName": "万三",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160701171456695122",
         "type": 1,
         "nodeDesc": "李雪",
@@ -2435,8 +2169,7 @@ export default {
         "englishName": "芷云",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160704090727979160",
         "type": 1,
         "nodeDesc": "肖俊",
@@ -2451,8 +2184,7 @@ export default {
         "englishName": "石楠",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160719135024971117",
         "type": 1,
         "nodeDesc": "曾繁军",
@@ -2484,8 +2216,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160722200952984162",
         "type": 1,
         "nodeDesc": "赵雅清",
@@ -2517,8 +2248,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160725103147492130",
         "type": 1,
         "nodeDesc": "李春燕",
@@ -2550,8 +2280,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160801182459487161",
         "type": 1,
         "nodeDesc": "何江英",
@@ -2566,8 +2295,7 @@ export default {
         "englishName": "妍姿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160818221115186174",
         "type": 1,
         "nodeDesc": "荣博涵",
@@ -2598,8 +2326,7 @@ export default {
             "modifyTime": "2017-04-07 11:56:39",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1704071156391607742vt07145",
             "number": "20160818221115186174",
             "companyNO": "20160514232049697402",
@@ -2617,8 +2344,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160901190158901159",
         "type": 1,
         "nodeDesc": "张丹",
@@ -2650,8 +2376,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20161009190842208321",
         "type": 1,
         "nodeDesc": "付炳锋",
@@ -2666,8 +2391,7 @@ export default {
         "englishName": "仁贵",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20161028105440455682",
         "type": 1,
         "nodeDesc": "张燕茹",
@@ -2682,8 +2406,7 @@ export default {
         "englishName": "蝶语",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20161110183756171832",
         "type": 1,
         "nodeDesc": "周俊岑",
@@ -2714,8 +2437,7 @@ export default {
             "modifyTime": "2016-08-23 10:09:46",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703300947054975483vt07145",
             "number": "20161110183756171832",
             "companyNO": "20160514232049697402",
@@ -2732,8 +2454,7 @@ export default {
             "modifyTime": "2017-03-30 09:47:05",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703300954504880120vt07122",
             "number": "20161110183756171832",
             "companyNO": "20160514232049697402",
@@ -2750,8 +2471,7 @@ export default {
             "modifyTime": "2017-03-30 09:54:51",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703301004180603374vt07169",
             "number": "20161110183756171832",
             "companyNO": "20160514232049697402",
@@ -2768,8 +2488,7 @@ export default {
             "modifyTime": "2017-03-30 10:04:19",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703301030250086553vt07122",
             "number": "20161110183756171832",
             "companyNO": "20160514232049697402",
@@ -2787,8 +2506,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20161117184428265189",
         "type": 1,
         "nodeDesc": "郑露",
@@ -2819,8 +2537,7 @@ export default {
             "modifyTime": "2016-12-07 14:41:30",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1612071441509845830vt07651",
             "number": "20161117184428265189",
             "companyNO": "20160514232049697402",
@@ -2838,8 +2555,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170106152107042254",
         "type": 1,
         "nodeDesc": "舒芳",
@@ -2854,8 +2570,7 @@ export default {
         "englishName": "坠儿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170119190216516504",
         "type": 1,
         "nodeDesc": "陈琛",
@@ -2870,8 +2585,7 @@ export default {
         "englishName": "叶笑",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171453070132",
         "type": 1,
         "nodeDesc": "李佑中",
@@ -2886,8 +2600,7 @@ export default {
         "englishName": "正豪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171454567175",
         "type": 1,
         "nodeDesc": "罗昌孜-保洁",
@@ -2902,8 +2615,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171455502996",
         "type": 1,
         "nodeDesc": "汪子霞-保洁",
@@ -2935,8 +2647,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171456672101",
         "type": 1,
         "nodeDesc": "张国君-保洁",
@@ -2951,8 +2662,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171457627102",
         "type": 1,
         "nodeDesc": "张荣娣-保洁",
@@ -2967,8 +2677,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171501898140",
         "type": 1,
         "nodeDesc": "刘雨檀",
@@ -2983,8 +2692,7 @@ export default {
         "englishName": "安歌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171502772138",
         "type": 1,
         "nodeDesc": "文绍立",
@@ -2999,8 +2707,7 @@ export default {
         "englishName": "默笙",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171503514176",
         "type": 1,
         "nodeDesc": "李琳1",
@@ -3015,8 +2722,7 @@ export default {
         "englishName": "苏白",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171507412143",
         "type": 1,
         "nodeDesc": "潘阳",
@@ -3031,8 +2737,7 @@ export default {
         "englishName": "鲤缚",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171508398914",
         "type": 1,
         "nodeDesc": "谌雪婷",
@@ -3047,8 +2752,7 @@ export default {
         "englishName": "念慈",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171509207111",
         "type": 1,
         "nodeDesc": "牟泓铮",
@@ -3063,8 +2767,7 @@ export default {
         "englishName": "如云",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171511176196",
         "type": 1,
         "nodeDesc": "黄帅",
@@ -3079,8 +2782,7 @@ export default {
         "englishName": "少伯",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171515508210",
         "type": 1,
         "nodeDesc": "赵海斌",
@@ -3095,8 +2797,7 @@ export default {
         "englishName": "玄霄",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171516374100",
         "type": 1,
         "nodeDesc": "王云福",
@@ -3111,8 +2812,7 @@ export default {
         "englishName": "胡天",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171518010126",
         "type": 1,
         "nodeDesc": "袁芳",
@@ -3127,8 +2827,7 @@ export default {
         "englishName": "华黎",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171519049201",
         "type": 1,
         "nodeDesc": "谢小会",
@@ -3143,8 +2842,7 @@ export default {
         "englishName": "木格",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171519931150",
         "type": 1,
         "nodeDesc": "陈玉",
@@ -3159,8 +2857,7 @@ export default {
         "englishName": "夏花",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171521017180",
         "type": 1,
         "nodeDesc": "郑小英",
@@ -3175,8 +2872,7 @@ export default {
         "englishName": "紫英",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171533258361",
         "type": 1,
         "nodeDesc": "李毅",
@@ -3191,8 +2887,7 @@ export default {
         "englishName": "法正",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171558646270",
         "type": 1,
         "nodeDesc": "陈思",
@@ -3207,8 +2902,7 @@ export default {
         "englishName": "冯嫽",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171600848376",
         "type": 1,
         "nodeDesc": "谢晓燕",
@@ -3223,8 +2917,7 @@ export default {
         "englishName": "翎梓",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171603219108",
         "type": 1,
         "nodeDesc": "胡茂兰",
@@ -3239,8 +2932,7 @@ export default {
         "englishName": "夕月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171604479660",
         "type": 1,
         "nodeDesc": "刘越",
@@ -3255,8 +2947,7 @@ export default {
         "englishName": "子皓",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171607166166",
         "type": 1,
         "nodeDesc": "陈茜",
@@ -3271,8 +2962,7 @@ export default {
         "englishName": "惜若",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171607967892",
         "type": 1,
         "nodeDesc": "李明艳",
@@ -3287,8 +2977,7 @@ export default {
         "englishName": "延琪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171608904131",
         "type": 1,
         "nodeDesc": "夏慧敏",
@@ -3303,8 +2992,7 @@ export default {
         "englishName": "挽心",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171609668618",
         "type": 1,
         "nodeDesc": "朱敏",
@@ -3319,8 +3007,7 @@ export default {
         "englishName": "娡儿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171611385147",
         "type": 1,
         "nodeDesc": "赖梅",
@@ -3335,8 +3022,7 @@ export default {
         "englishName": "青鸾",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171617178131",
         "type": 1,
         "nodeDesc": "刘丽萍",
@@ -3351,8 +3037,7 @@ export default {
         "englishName": "朱颜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171619616177",
         "type": 1,
         "nodeDesc": "张静",
@@ -3367,8 +3052,7 @@ export default {
         "englishName": "毛墙",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171620391622",
         "type": 1,
         "nodeDesc": "周燕平",
@@ -3383,8 +3067,7 @@ export default {
         "englishName": "玮彤",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171621202701",
         "type": 1,
         "nodeDesc": "杨鹃竹",
@@ -3399,8 +3082,7 @@ export default {
         "englishName": "杨柳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171621806716",
         "type": 1,
         "nodeDesc": "刘莹莹",
@@ -3415,8 +3097,7 @@ export default {
         "englishName": "叶秋",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171622660428",
         "type": 1,
         "nodeDesc": "李彬彬",
@@ -3431,8 +3112,7 @@ export default {
         "englishName": "幼烟",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171623440159",
         "type": 1,
         "nodeDesc": "朱林伟",
@@ -3464,8 +3144,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171624332694",
         "type": 1,
         "nodeDesc": "伍帅杰",
@@ -3480,8 +3159,7 @@ export default {
         "englishName": "君胄",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171625083121",
         "type": 1,
         "nodeDesc": "何芳",
@@ -3496,8 +3174,7 @@ export default {
         "englishName": "芮涵",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171626751117",
         "type": 1,
         "nodeDesc": "母媛林",
@@ -3512,8 +3189,7 @@ export default {
         "englishName": "夕雾",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171628495118",
         "type": 1,
         "nodeDesc": "邱星",
@@ -3528,8 +3204,7 @@ export default {
         "englishName": "木槿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171630356171",
         "type": 1,
         "nodeDesc": "嫣然",
@@ -3544,8 +3219,7 @@ export default {
         "englishName": "嫣然",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171644136381",
         "type": 1,
         "nodeDesc": "陈静静",
@@ -3560,8 +3234,7 @@ export default {
         "englishName": "风夕",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171645054130",
         "type": 1,
         "nodeDesc": "贺白玲",
@@ -3576,8 +3249,7 @@ export default {
         "englishName": "雨馨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171646326164",
         "type": 1,
         "nodeDesc": "翼之",
@@ -3609,8 +3281,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171646969934",
         "type": 1,
         "nodeDesc": "曾敏",
@@ -3642,8 +3313,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171647935152",
         "type": 1,
         "nodeDesc": "熊信春",
@@ -3658,8 +3328,7 @@ export default {
         "englishName": "琴儿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171648705828",
         "type": 1,
         "nodeDesc": "钟映辉",
@@ -3674,8 +3343,7 @@ export default {
         "englishName": "石申",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171650912858",
         "type": 1,
         "nodeDesc": "陈叶",
@@ -3690,8 +3358,7 @@ export default {
         "englishName": "倚梦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171651700170",
         "type": 1,
         "nodeDesc": "范润",
@@ -3706,8 +3373,7 @@ export default {
         "englishName": "采和",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171653505170",
         "type": 1,
         "nodeDesc": "任丽君",
@@ -3722,8 +3388,7 @@ export default {
         "englishName": "冉竹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171654466156",
         "type": 1,
         "nodeDesc": "上官",
@@ -3738,8 +3403,7 @@ export default {
         "englishName": "上官",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171655256174",
         "type": 1,
         "nodeDesc": "龚丽君",
@@ -3754,8 +3418,7 @@ export default {
         "englishName": "雨酥",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171656172912",
         "type": 1,
         "nodeDesc": "苗雪凌",
@@ -3770,8 +3433,7 @@ export default {
         "englishName": "郑儿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171657088193",
         "type": 1,
         "nodeDesc": "肖敏",
@@ -3786,8 +3448,7 @@ export default {
         "englishName": "翡寒",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171704409123",
         "type": 1,
         "nodeDesc": "冯露",
@@ -3802,8 +3463,7 @@ export default {
         "englishName": "玥钥",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171705568902",
         "type": 1,
         "nodeDesc": "张莉梅",
@@ -3818,8 +3478,7 @@ export default {
         "englishName": "霜晚",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171706428762",
         "type": 1,
         "nodeDesc": "刘梦潇",
@@ -3851,8 +3510,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171707514252",
         "type": 1,
         "nodeDesc": "王静",
@@ -3867,8 +3525,7 @@ export default {
         "englishName": "芳菲",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171708766125",
         "type": 1,
         "nodeDesc": "杨青平",
@@ -3883,8 +3540,7 @@ export default {
         "englishName": "思萱",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171709589628",
         "type": 1,
         "nodeDesc": "王吉丹",
@@ -3899,8 +3555,7 @@ export default {
         "englishName": "雨鑫",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171716657130",
         "type": 1,
         "nodeDesc": "周宣龙",
@@ -3932,8 +3587,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171717301888",
         "type": 1,
         "nodeDesc": "何天波",
@@ -3965,8 +3619,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171717907114",
         "type": 1,
         "nodeDesc": "官焜",
@@ -3998,8 +3651,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171718577508",
         "type": 1,
         "nodeDesc": "杨磊1",
@@ -4014,8 +3666,7 @@ export default {
         "englishName": "盖聂",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171719900113",
         "type": 1,
         "nodeDesc": "李刚",
@@ -4047,8 +3698,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171721256314",
         "type": 1,
         "nodeDesc": "公瑾测试",
@@ -4079,8 +3729,7 @@ export default {
             "modifyTime": "2017-04-19 14:44:54",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1704191444546089027vt07648",
             "number": "20170125171721256314",
             "companyNO": "20160514232049697402",
@@ -4098,8 +3747,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171721889171",
         "type": 1,
         "nodeDesc": "宋妍妍测试",
@@ -4130,8 +3778,7 @@ export default {
             "modifyTime": "2017-08-08 15:34:43",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708081534437395993vt07122",
             "number": "20170125171721889171",
             "companyNO": "20160514232049697402",
@@ -4149,8 +3796,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171722559180",
         "type": 1,
         "nodeDesc": "罗嵩",
@@ -4181,8 +3827,7 @@ export default {
             "modifyTime": "2017-03-20 10:22:37",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703231528392403604vt07162",
             "number": "20170125171722559180",
             "companyNO": "20160514232049697402",
@@ -4200,8 +3845,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171723246162",
         "type": 1,
         "nodeDesc": "罗奇",
@@ -4232,8 +3876,7 @@ export default {
             "modifyTime": "2017-08-09 14:46:31",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708091445435502046vt07649",
             "number": "20170125171723246162",
             "companyNO": "20160514232049697402",
@@ -4251,8 +3894,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171724740218",
         "type": 1,
         "nodeDesc": "俊仪",
@@ -4267,8 +3909,7 @@ export default {
         "englishName": "俊仪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171725429364",
         "type": 1,
         "nodeDesc": "辛平",
@@ -4283,8 +3924,7 @@ export default {
         "englishName": "九剑",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171726479574",
         "type": 1,
         "nodeDesc": "陈月",
@@ -4299,8 +3939,7 @@ export default {
         "englishName": "望泞",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171727595150",
         "type": 1,
         "nodeDesc": "何文轩",
@@ -4315,8 +3954,7 @@ export default {
         "englishName": "文宣",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171730508161",
         "type": 1,
         "nodeDesc": "王露思",
@@ -4331,8 +3969,7 @@ export default {
         "englishName": "蓝兰",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171731147184",
         "type": 1,
         "nodeDesc": "朱渊",
@@ -4364,8 +4001,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171732538113",
         "type": 1,
         "nodeDesc": "陈家容",
@@ -4380,8 +4016,7 @@ export default {
         "englishName": "南陌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171733591292",
         "type": 1,
         "nodeDesc": "陈芳",
@@ -4413,8 +4048,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171734547109",
         "type": 1,
         "nodeDesc": "若幽",
@@ -4429,8 +4063,7 @@ export default {
         "englishName": "若幽",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171735206177",
         "type": 1,
         "nodeDesc": "刘强",
@@ -4462,8 +4095,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171736623344",
         "type": 1,
         "nodeDesc": "廖仕杰",
@@ -4494,8 +4126,7 @@ export default {
             "modifyTime": "2017-03-21 15:02:40",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703211502401957284vt07648",
             "number": "20170125171736623344",
             "companyNO": "20160514232049697402",
@@ -4513,8 +4144,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171738469524",
         "type": 1,
         "nodeDesc": "汤媛媛",
@@ -4529,8 +4159,7 @@ export default {
         "englishName": "小天",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171739077157",
         "type": 1,
         "nodeDesc": "彭俊龙",
@@ -4545,8 +4174,7 @@ export default {
         "englishName": "程普",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171739792175",
         "type": 1,
         "nodeDesc": "杨国伟",
@@ -4561,8 +4189,7 @@ export default {
         "englishName": "鬼雄",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171740985177",
         "type": 1,
         "nodeDesc": "吴立川",
@@ -4594,8 +4221,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160514233253971976",
         "type": 1,
         "nodeDesc": "周琳",
@@ -4626,8 +4252,7 @@ export default {
             "modifyTime": "2017-08-25 10:26:22",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1605181449229772521XXXX651",
             "number": "20160514233253971976",
             "companyNO": "20160514232049697402",
@@ -4645,8 +4270,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160514232049897912",
         "type": 1,
         "nodeDesc": "陆玉兰",
@@ -4677,8 +4301,7 @@ export default {
             "modifyTime": "2016-05-24 09:27:52",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1606021525356747580XXXX649",
             "number": "20160514232049897912",
             "companyNO": "20160514232049697402",
@@ -4696,8 +4319,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171546438189",
         "type": 1,
         "nodeDesc": "汪艳",
@@ -4712,8 +4334,7 @@ export default {
         "englishName": "静远",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171557859131",
         "type": 1,
         "nodeDesc": "张红",
@@ -4728,8 +4349,7 @@ export default {
         "englishName": "尤娜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112309687116",
         "type": 1,
         "nodeDesc": "伍娜娜",
@@ -4744,8 +4364,7 @@ export default {
         "englishName": "嘉敏",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112313851122",
         "type": 1,
         "nodeDesc": "黄涛",
@@ -4760,8 +4379,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112322671181",
         "type": 1,
         "nodeDesc": "杨洁",
@@ -4776,8 +4394,7 @@ export default {
         "englishName": "秋月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112323594886",
         "type": 1,
         "nodeDesc": "陈秀娟",
@@ -4809,8 +4426,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112324584476",
         "type": 1,
         "nodeDesc": "唐清垚",
@@ -4825,8 +4441,7 @@ export default {
         "englishName": "流苏",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112325562187",
         "type": 1,
         "nodeDesc": "熊丽",
@@ -4841,8 +4456,7 @@ export default {
         "englishName": "如雪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112326961434",
         "type": 1,
         "nodeDesc": "黄敏",
@@ -4857,8 +4471,7 @@ export default {
         "englishName": "桃之",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112336059165",
         "type": 1,
         "nodeDesc": "唐举洪",
@@ -4890,8 +4503,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112336705738",
         "type": 1,
         "nodeDesc": "王杰",
@@ -4906,8 +4518,7 @@ export default {
         "englishName": "姑苏",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112338840330",
         "type": 1,
         "nodeDesc": "微雨",
@@ -4938,8 +4549,7 @@ export default {
             "modifyTime": "2017-03-28 10:31:29",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703280923159048734vt07145",
             "number": "20170215112338840330",
             "companyNO": "20160514232049697402",
@@ -4957,8 +4567,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112344699192",
         "type": 1,
         "nodeDesc": "彭丽霞",
@@ -4990,8 +4599,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112345651199",
         "type": 1,
         "nodeDesc": "曹宇豪",
@@ -5006,8 +4614,7 @@ export default {
         "englishName": "文初",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112346482145",
         "type": 1,
         "nodeDesc": "胡江流",
@@ -5022,8 +4629,7 @@ export default {
         "englishName": "燕丹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112347315264",
         "type": 1,
         "nodeDesc": "宋博",
@@ -5055,8 +4661,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112352403390",
         "type": 1,
         "nodeDesc": "王燕",
@@ -5087,8 +4692,7 @@ export default {
             "modifyTime": "2017-02-23 10:00:29",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1706011642177983787vt0a145",
             "number": "20170215112352403390",
             "companyNO": "20160514232049697402",
@@ -5106,8 +4710,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170216112336839458",
         "type": 1,
         "nodeDesc": "运维值班电话",
@@ -5122,8 +4725,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623092735930117",
         "type": 1,
         "nodeDesc": "锦桐",
@@ -5154,8 +4756,7 @@ export default {
             "modifyTime": "2017-03-23 14:21:42",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703231421424151116vt07162",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5172,8 +4773,7 @@ export default {
             "modifyTime": "2017-03-23 14:21:42",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703231421424154520vt07162",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5190,8 +4790,7 @@ export default {
             "modifyTime": "2017-03-23 14:21:42",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703241535199511852vt07164",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5208,8 +4807,7 @@ export default {
             "modifyTime": "2017-03-24 15:35:19",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703241535199514252vt07164",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5226,8 +4824,7 @@ export default {
             "modifyTime": "2017-03-24 15:35:19",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703241535199523874vt07164",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5244,8 +4841,7 @@ export default {
             "modifyTime": "2017-03-24 15:35:19",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707051021134340004vt07145",
             "number": "20160623092735930117",
             "companyNO": "20160514232049697402",
@@ -5263,8 +4859,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170222112842426342",
         "type": 1,
         "nodeDesc": "祁雨",
@@ -5279,8 +4874,7 @@ export default {
         "englishName": "重耳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170225112553230900",
         "type": 1,
         "nodeDesc": "刘名洋",
@@ -5295,8 +4889,7 @@ export default {
         "englishName": "丘黎",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171537493412",
         "type": 1,
         "nodeDesc": "朱林",
@@ -5311,8 +4904,7 @@ export default {
         "englishName": "淼淼",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171551316111",
         "type": 1,
         "nodeDesc": "罗险青",
@@ -5327,8 +4919,7 @@ export default {
         "englishName": "夕露",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20161110094837580930",
         "type": 1,
         "nodeDesc": "王雪燕",
@@ -5343,8 +4934,7 @@ export default {
         "englishName": "沐雪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091250619850",
         "type": 1,
         "nodeDesc": "谭艺娜",
@@ -5359,8 +4949,7 @@ export default {
         "englishName": "远桥",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171615542294",
         "type": 1,
         "nodeDesc": "王杰1",
@@ -5375,8 +4964,7 @@ export default {
         "englishName": "梓月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171616353159",
         "type": 1,
         "nodeDesc": "张晨",
@@ -5391,8 +4979,7 @@ export default {
         "englishName": "晨兴",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171526391157",
         "type": 1,
         "nodeDesc": "陶思凤",
@@ -5424,8 +5011,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623092807003180",
         "type": 1,
         "nodeDesc": "汤建强",
@@ -5457,8 +5043,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160516100320219122",
         "type": 1,
         "nodeDesc": "王伟伟",
@@ -5489,8 +5074,7 @@ export default {
             "modifyTime": "2016-05-16 10:03:20",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1606161347471657303vt07649",
             "number": "20160516100320219122",
             "companyNO": "20160514232049697402",
@@ -5508,8 +5092,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160516200708022104",
         "type": 1,
         "nodeDesc": "程文鹏",
@@ -5540,8 +5123,7 @@ export default {
             "modifyTime": "2016-05-16 20:07:08",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1608041416190200867vt07651",
             "number": "20160516200708022104",
             "companyNO": "20160514232049697402",
@@ -5558,8 +5140,7 @@ export default {
             "modifyTime": "2016-08-04 14:16:18",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1701101021537653402vt07649",
             "number": "20160516200708022104",
             "companyNO": "20160514232049697402",
@@ -5577,8 +5158,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160615105750201166",
         "type": 1,
         "nodeDesc": "周军",
@@ -5610,8 +5190,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160622085909420177",
         "type": 1,
         "nodeDesc": "胡展闳",
@@ -5643,8 +5222,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160622085953845175",
         "type": 1,
         "nodeDesc": "张明",
@@ -5676,8 +5254,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623085801471600",
         "type": 1,
         "nodeDesc": "刘升",
@@ -5709,8 +5286,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623091811546133",
         "type": 1,
         "nodeDesc": "吴浪",
@@ -5725,8 +5301,7 @@ export default {
         "englishName": "月光",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623092058574126",
         "type": 1,
         "nodeDesc": "刘小婷",
@@ -5758,8 +5333,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623200603662538",
         "type": 1,
         "nodeDesc": "伍仕霞",
@@ -5791,8 +5365,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160704090819679199",
         "type": 1,
         "nodeDesc": "李胜",
@@ -5824,8 +5397,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160824135708681128",
         "type": 1,
         "nodeDesc": "周雪峰",
@@ -5857,8 +5429,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160830111942300158",
         "type": 1,
         "nodeDesc": "陈姣敏",
@@ -5890,8 +5461,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160901135259990181",
         "type": 1,
         "nodeDesc": "李昊东",
@@ -5906,8 +5476,7 @@ export default {
         "englishName": "溯辉",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20161208175957146126",
         "type": 1,
         "nodeDesc": "罗雪峰",
@@ -5939,8 +5508,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170113095646628244",
         "type": 1,
         "nodeDesc": "唐精",
@@ -5971,8 +5539,7 @@ export default {
             "modifyTime": "2017-01-19 16:25:37",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1701191625372451358vt07650",
             "number": "20170113095646628244",
             "companyNO": "20160514232049697402",
@@ -5989,8 +5556,7 @@ export default {
             "modifyTime": "2017-01-19 16:25:37",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1701191625372489780vt07650",
             "number": "20170113095646628244",
             "companyNO": "20160514232049697402",
@@ -6008,8 +5574,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171524212218",
         "type": 1,
         "nodeDesc": "赵恒",
@@ -6041,8 +5606,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171525690106",
         "type": 1,
         "nodeDesc": "郑杰",
@@ -6057,8 +5621,7 @@ export default {
         "englishName": "文忠",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171538355107",
         "type": 1,
         "nodeDesc": "徐智武",
@@ -6073,8 +5636,7 @@ export default {
         "englishName": "随风",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171539632157",
         "type": 1,
         "nodeDesc": "txbcp",
@@ -6089,8 +5651,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171540892652",
         "type": 1,
         "nodeDesc": "通宵班废票",
@@ -6105,8 +5666,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171540892652",
         "type": 1,
         "nodeDesc": "通宵班废票",
@@ -6121,8 +5681,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171541533185",
         "type": 1,
         "nodeDesc": "彭银",
@@ -6137,8 +5696,7 @@ export default {
         "englishName": "小环",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171542497328",
         "type": 1,
         "nodeDesc": "陈凤琴",
@@ -6153,8 +5711,7 @@ export default {
         "englishName": "若忆",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171543905116",
         "type": 1,
         "nodeDesc": "秦洁",
@@ -6169,8 +5726,7 @@ export default {
         "englishName": "阿朱",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171547311176",
         "type": 1,
         "nodeDesc": "潘文瑞",
@@ -6185,8 +5741,7 @@ export default {
         "englishName": "空木",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171548939174",
         "type": 1,
         "nodeDesc": "刘婷",
@@ -6218,8 +5773,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171549706120",
         "type": 1,
         "nodeDesc": "黄群",
@@ -6234,8 +5788,7 @@ export default {
         "englishName": "真真",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171550516630",
         "type": 1,
         "nodeDesc": "李璐",
@@ -6250,8 +5803,7 @@ export default {
         "englishName": "秋瑾",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171552077136",
         "type": 1,
         "nodeDesc": "刘瑶",
@@ -6266,8 +5818,7 @@ export default {
         "englishName": "瑶光",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171552725131",
         "type": 1,
         "nodeDesc": "王敏2",
@@ -6282,8 +5833,7 @@ export default {
         "englishName": "依米",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171554524146",
         "type": 1,
         "nodeDesc": "雷学琴",
@@ -6298,8 +5848,7 @@ export default {
         "englishName": "雨荨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171555321520",
         "type": 1,
         "nodeDesc": "张倩",
@@ -6314,8 +5863,7 @@ export default {
         "englishName": "卓琪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171556127101",
         "type": 1,
         "nodeDesc": "张灿",
@@ -6330,8 +5878,7 @@ export default {
         "englishName": "智敏",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171631741762",
         "type": 1,
         "nodeDesc": "王栋",
@@ -6346,8 +5893,7 @@ export default {
         "englishName": "七月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171632356170",
         "type": 1,
         "nodeDesc": "景天",
@@ -6362,8 +5908,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171632999546",
         "type": 1,
         "nodeDesc": "鲁琳",
@@ -6395,8 +5940,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171634113112",
         "type": 1,
         "nodeDesc": "吕刚",
@@ -6411,8 +5955,7 @@ export default {
         "englishName": "蒙正",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171635475132",
         "type": 1,
         "nodeDesc": "王启波",
@@ -6427,8 +5970,7 @@ export default {
         "englishName": "破天",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171636346119",
         "type": 1,
         "nodeDesc": "苏楠",
@@ -6460,8 +6002,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171638211786",
         "type": 1,
         "nodeDesc": "廖加凯",
@@ -6476,8 +6017,7 @@ export default {
         "englishName": "思白",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171642033122",
         "type": 1,
         "nodeDesc": "李娜",
@@ -6492,8 +6032,7 @@ export default {
         "englishName": "云蕾",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171711578121",
         "type": 1,
         "nodeDesc": "蒋航",
@@ -6525,8 +6064,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171714212308",
         "type": 1,
         "nodeDesc": "孙丽琼",
@@ -6541,8 +6079,7 @@ export default {
         "englishName": "雅雯",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171715060224",
         "type": 1,
         "nodeDesc": "耿志",
@@ -6557,8 +6094,7 @@ export default {
         "englishName": "子娴",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171728221153",
         "type": 1,
         "nodeDesc": "罗珍凤",
@@ -6590,8 +6126,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112305773128",
         "type": 1,
         "nodeDesc": "赵彩琳",
@@ -6606,8 +6141,7 @@ export default {
         "englishName": "曼云",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112306740141",
         "type": 1,
         "nodeDesc": "罗雯婕",
@@ -6622,8 +6156,7 @@ export default {
         "englishName": "亚筠",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112308908198",
         "type": 1,
         "nodeDesc": "贾坤",
@@ -6638,8 +6171,7 @@ export default {
         "englishName": "鹤鸣",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112314795950",
         "type": 1,
         "nodeDesc": "鲜利红",
@@ -6654,8 +6186,7 @@ export default {
         "englishName": "征鸿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112322024152",
         "type": 1,
         "nodeDesc": "黎欢",
@@ -6687,8 +6218,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112343893284",
         "type": 1,
         "nodeDesc": "夏卿",
@@ -6703,8 +6233,7 @@ export default {
         "englishName": "依兰",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170217112345376193",
         "type": 1,
         "nodeDesc": "华安",
@@ -6735,8 +6264,7 @@ export default {
             "modifyTime": "2017-03-28 11:53:36",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708191816534696425vt07162",
             "number": "20170217112345376193",
             "companyNO": "20160514232049697402",
@@ -6754,8 +6282,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170217112346178136",
         "type": 1,
         "nodeDesc": "徐燕",
@@ -6787,8 +6314,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170223112548113119",
         "type": 1,
         "nodeDesc": "刘日",
@@ -6820,8 +6346,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170228112642070141",
         "type": 1,
         "nodeDesc": "栾晓琳",
@@ -6836,8 +6361,7 @@ export default {
         "englishName": "凉汐",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170309145107963107",
         "type": 1,
         "nodeDesc": "田丽",
@@ -6868,8 +6392,7 @@ export default {
             "modifyTime": "2017-04-18 17:14:12",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707221457523173709vt07122",
             "number": "20170309145107963107",
             "companyNO": "20160514232049697402",
@@ -6887,8 +6410,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170309145111215164",
         "type": 1,
         "nodeDesc": "郑立健",
@@ -6903,8 +6425,7 @@ export default {
         "englishName": "平野",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170316155043503998",
         "type": 1,
         "nodeDesc": "余海天",
@@ -6919,8 +6440,7 @@ export default {
         "englishName": "颜渊",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115118572158",
         "type": 1,
         "nodeDesc": "余佳珍",
@@ -6935,8 +6455,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115119207161",
         "type": 1,
         "nodeDesc": "管婷",
@@ -6951,8 +6470,7 @@ export default {
         "englishName": "季萌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115120434158",
         "type": 1,
         "nodeDesc": "刘虎跃",
@@ -6967,8 +6485,7 @@ export default {
         "englishName": "飞岳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115121383980",
         "type": 1,
         "nodeDesc": "陈国鑫",
@@ -6983,8 +6500,7 @@ export default {
         "englishName": "黄兴",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115121957612",
         "type": 1,
         "nodeDesc": "王月",
@@ -6999,8 +6515,7 @@ export default {
         "englishName": "南枝",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115123744132",
         "type": 1,
         "nodeDesc": "雷迅",
@@ -7015,8 +6530,7 @@ export default {
         "englishName": "华野",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115124215336",
         "type": 1,
         "nodeDesc": "李可",
@@ -7031,8 +6545,7 @@ export default {
         "englishName": "荆轲",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115124510398",
         "type": 1,
         "nodeDesc": "张潇月",
@@ -7047,8 +6560,7 @@ export default {
         "englishName": "兰泽",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115124995172",
         "type": 1,
         "nodeDesc": "田晓红",
@@ -7063,8 +6575,7 @@ export default {
         "englishName": "秋夕",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115130199330",
         "type": 1,
         "nodeDesc": "苟俊",
@@ -7079,8 +6590,7 @@ export default {
         "englishName": "沧沫",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091730830153",
         "type": 1,
         "nodeDesc": "万文根",
@@ -7112,8 +6622,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160516100253586143",
         "type": 1,
         "nodeDesc": "杨衫衫",
@@ -7145,8 +6654,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160630004953815150",
         "type": 1,
         "nodeDesc": "王辉雄",
@@ -7161,8 +6669,7 @@ export default {
         "englishName": "长风",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170421122513558123",
         "type": 1,
         "nodeDesc": "王胜彦",
@@ -7177,8 +6684,7 @@ export default {
         "englishName": "文宇",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160514233417906156",
         "type": 1,
         "nodeDesc": "姜元斐",
@@ -7209,8 +6715,7 @@ export default {
             "modifyTime": "2017-04-10 18:16:00",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1605181450467223025XXXX651",
             "number": "20160514233417906156",
             "companyNO": "20160514232049697402",
@@ -7228,8 +6733,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171459914122",
         "type": 1,
         "nodeDesc": "罗聆",
@@ -7244,8 +6748,7 @@ export default {
         "englishName": "温暖",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112316830101",
         "type": 1,
         "nodeDesc": "黄国升",
@@ -7260,8 +6763,7 @@ export default {
         "englishName": "白虹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170429220035033492",
         "type": 1,
         "nodeDesc": "徐海东",
@@ -7293,8 +6795,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170515164553573990",
         "type": 1,
         "nodeDesc": "赵天才",
@@ -7309,8 +6810,7 @@ export default {
         "englishName": "汤谷",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164559906898",
         "type": 1,
         "nodeDesc": "金柯亦",
@@ -7325,8 +6825,7 @@ export default {
         "englishName": "熙景",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164601951167",
         "type": 1,
         "nodeDesc": "张敬瑜",
@@ -7341,8 +6840,7 @@ export default {
         "englishName": "月风",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164602695145",
         "type": 1,
         "nodeDesc": "刘鉴慧",
@@ -7357,8 +6855,7 @@ export default {
         "englishName": "自横",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164603262586",
         "type": 1,
         "nodeDesc": "谷钰",
@@ -7373,8 +6870,7 @@ export default {
         "englishName": "南嘉",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164603922103",
         "type": 1,
         "nodeDesc": "李吴颗星",
@@ -7389,8 +6885,7 @@ export default {
         "englishName": "夜阑",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164604509184",
         "type": 1,
         "nodeDesc": "陈瑶瑶",
@@ -7405,8 +6900,7 @@ export default {
         "englishName": "初薰",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164605045844",
         "type": 1,
         "nodeDesc": "刘丽莎",
@@ -7421,8 +6915,7 @@ export default {
         "englishName": "芷嫣",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164606277196",
         "type": 1,
         "nodeDesc": "杨嘉明",
@@ -7454,8 +6947,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170515164607052154",
         "type": 1,
         "nodeDesc": "陈晓",
@@ -7470,8 +6962,7 @@ export default {
         "englishName": "扶桑",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115131646141",
         "type": 1,
         "nodeDesc": "刘旭东",
@@ -7486,8 +6977,7 @@ export default {
         "englishName": "胡适",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170421122514857840",
         "type": 1,
         "nodeDesc": "王丽",
@@ -7502,8 +6992,7 @@ export default {
         "englishName": "华裳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170421122515625742",
         "type": 1,
         "nodeDesc": "彭磊",
@@ -7518,8 +7007,7 @@ export default {
         "englishName": "于禁",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170421122516214153",
         "type": 1,
         "nodeDesc": "杨扬",
@@ -7534,8 +7022,7 @@ export default {
         "englishName": "知希",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170423122544326162",
         "type": 1,
         "nodeDesc": "罗先文",
@@ -7550,8 +7037,7 @@ export default {
         "englishName": "白驹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170423122544567214",
         "type": 1,
         "nodeDesc": "尹宗羽",
@@ -7583,8 +7069,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170423122544927361",
         "type": 1,
         "nodeDesc": "刘益",
@@ -7599,8 +7084,7 @@ export default {
         "englishName": "南音",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164608844776",
         "type": 1,
         "nodeDesc": "粟兴春",
@@ -7615,8 +7099,7 @@ export default {
         "englishName": "重楼",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171504529506",
         "type": 1,
         "nodeDesc": "胡英",
@@ -7631,8 +7114,7 @@ export default {
         "englishName": "素绚",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164559247642",
         "type": 1,
         "nodeDesc": "张艺",
@@ -7647,8 +7129,7 @@ export default {
         "englishName": "婉青",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170519183942757168",
         "type": 1,
         "nodeDesc": "唐凤琴",
@@ -7680,8 +7161,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170519190559042376",
         "type": 1,
         "nodeDesc": "李曼曼",
@@ -7713,8 +7193,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170519190559678177",
         "type": 1,
         "nodeDesc": "万艺",
@@ -7746,8 +7225,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170525212111753110",
         "type": 1,
         "nodeDesc": "童晶",
@@ -7779,8 +7257,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170603205750059536",
         "type": 1,
         "nodeDesc": "念之",
@@ -7795,8 +7272,7 @@ export default {
         "englishName": "念之",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192412075189",
         "type": 1,
         "nodeDesc": "马攀",
@@ -7811,8 +7287,7 @@ export default {
         "englishName": "流觞",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192413158167",
         "type": 1,
         "nodeDesc": "杜远萍",
@@ -7827,8 +7302,7 @@ export default {
         "englishName": "维叶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192413971528",
         "type": 1,
         "nodeDesc": "张祥宇",
@@ -7843,8 +7317,7 @@ export default {
         "englishName": "宇凡",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192414488184",
         "type": 1,
         "nodeDesc": "胡令",
@@ -7876,8 +7349,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170605192414895488",
         "type": 1,
         "nodeDesc": "李银香",
@@ -7892,8 +7364,7 @@ export default {
         "englishName": "夏彤",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192416512130",
         "type": 1,
         "nodeDesc": "李震",
@@ -7908,8 +7379,7 @@ export default {
         "englishName": "白煜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192416951142",
         "type": 1,
         "nodeDesc": "李鹏政",
@@ -7941,8 +7411,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170606151138473816",
         "type": 1,
         "nodeDesc": "龚萍",
@@ -7974,8 +7443,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170616101908158144",
         "type": 1,
         "nodeDesc": "谭新宇",
@@ -8007,8 +7475,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170620121134014488",
         "type": 1,
         "nodeDesc": "龙坤",
@@ -8023,8 +7490,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170620121502287161",
         "type": 1,
         "nodeDesc": "杨微",
@@ -8056,8 +7522,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170620153822450152",
         "type": 1,
         "nodeDesc": "张晓芳",
@@ -8089,8 +7554,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170717203557790176",
         "type": 1,
         "nodeDesc": "周徐希",
@@ -8105,8 +7569,7 @@ export default {
         "englishName": "康健",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170717203117469149",
         "type": 1,
         "nodeDesc": "牛震",
@@ -8121,8 +7584,7 @@ export default {
         "englishName": "得朋",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170717203941274662",
         "type": 1,
         "nodeDesc": "欧玲艳",
@@ -8137,8 +7599,7 @@ export default {
         "englishName": "欧丹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170717204117043988",
         "type": 1,
         "nodeDesc": "游聪",
@@ -8170,8 +7631,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170717210906352540",
         "type": 1,
         "nodeDesc": "曹华",
@@ -8186,8 +7646,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718140004660954",
         "type": 1,
         "nodeDesc": "薛成",
@@ -8219,8 +7678,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171729873674",
         "type": 1,
         "nodeDesc": "陈杨",
@@ -8251,8 +7709,7 @@ export default {
             "modifyTime": "2017-02-14 14:38:46",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1703240922334280898vt07649",
             "number": "20170125171729873674",
             "companyNO": "20160514232049697402",
@@ -8270,8 +7727,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112342063534",
         "type": 1,
         "nodeDesc": "太冲",
@@ -8303,8 +7759,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170304112742401181",
         "type": 1,
         "nodeDesc": "宋颖莉",
@@ -8319,8 +7774,7 @@ export default {
         "englishName": "惜沫",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115129020194",
         "type": 1,
         "nodeDesc": "庞靖",
@@ -8352,8 +7806,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170419115131328162",
         "type": 1,
         "nodeDesc": "黄一凡",
@@ -8368,8 +7821,7 @@ export default {
         "englishName": "尘轩",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170605192415957692",
         "type": 1,
         "nodeDesc": "吕宁",
@@ -8384,8 +7836,7 @@ export default {
         "englishName": "阡陌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170620121128850158",
         "type": 1,
         "nodeDesc": "刘茫",
@@ -8416,8 +7867,7 @@ export default {
             "modifyTime": "2017-08-16 17:12:34",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1706302111385410162vt0a145",
             "number": "20170620121128850158",
             "companyNO": "20160514232049697402",
@@ -8434,8 +7884,7 @@ export default {
             "modifyTime": "2017-06-30 21:11:41",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708161658592747194vt07650",
             "number": "20170620121128850158",
             "companyNO": "20160514232049697402",
@@ -8453,8 +7902,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170620121133849904",
         "type": 1,
         "nodeDesc": "苗健",
@@ -8486,8 +7934,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170620121137378113",
         "type": 1,
         "nodeDesc": "徐刚",
@@ -8519,8 +7966,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170616103512033994",
         "type": 1,
         "nodeDesc": "唐凤琴",
@@ -8552,8 +7998,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170605192415454167",
         "type": 1,
         "nodeDesc": "胡诗婧",
@@ -8568,8 +8013,7 @@ export default {
         "englishName": "寒烟",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170712162250310576",
         "type": 1,
         "nodeDesc": "阴晓晨",
@@ -8584,8 +8028,7 @@ export default {
         "englishName": "浪迹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170705095017725135",
         "type": 1,
         "nodeDesc": "孙畅",
@@ -8600,8 +8043,7 @@ export default {
         "englishName": "峻茂",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170620121128329169",
         "type": 1,
         "nodeDesc": "吴成",
@@ -8616,8 +8058,7 @@ export default {
         "englishName": "墨子",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170710135325892150",
         "type": 1,
         "nodeDesc": "黄昌明",
@@ -8632,8 +8073,7 @@ export default {
         "englishName": "星回",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170705095021951105",
         "type": 1,
         "nodeDesc": "梁龙",
@@ -8648,8 +8088,7 @@ export default {
         "englishName": "流光",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170140356838",
         "type": 1,
         "nodeDesc": "邓炎胜",
@@ -8664,8 +8103,7 @@ export default {
         "englishName": "玥苼",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170150290191",
         "type": 1,
         "nodeDesc": "万玉",
@@ -8680,8 +8118,7 @@ export default {
         "englishName": "柳叶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170150626166",
         "type": 1,
         "nodeDesc": "苟明兰",
@@ -8696,8 +8133,7 @@ export default {
         "englishName": "暮生",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170153847556",
         "type": 1,
         "nodeDesc": "刘庆",
@@ -8712,8 +8148,7 @@ export default {
         "englishName": "孟陬",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170155705121",
         "type": 1,
         "nodeDesc": "魏秋双",
@@ -8728,8 +8163,7 @@ export default {
         "englishName": "昭明",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170156750508",
         "type": 1,
         "nodeDesc": "乔楷斐",
@@ -8744,8 +8178,7 @@ export default {
         "englishName": "渭桥",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170157132296",
         "type": 1,
         "nodeDesc": "肖永臣",
@@ -8760,8 +8193,7 @@ export default {
         "englishName": "元泽",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170157334286",
         "type": 1,
         "nodeDesc": "刘芳",
@@ -8776,8 +8208,7 @@ export default {
         "englishName": "幽玄",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170158588481",
         "type": 1,
         "nodeDesc": "黄昊宇",
@@ -8792,8 +8223,7 @@ export default {
         "englishName": "初言",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170159003103",
         "type": 1,
         "nodeDesc": "张晶",
@@ -8808,8 +8238,7 @@ export default {
         "englishName": "箩洛",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170200573155",
         "type": 1,
         "nodeDesc": "谢代亮",
@@ -8841,8 +8270,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170718170200692176",
         "type": 1,
         "nodeDesc": "李欢平",
@@ -8857,8 +8285,7 @@ export default {
         "englishName": "岳月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170201049154",
         "type": 1,
         "nodeDesc": "黄虹",
@@ -8873,8 +8300,7 @@ export default {
         "englishName": "青葵",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170203512956",
         "type": 1,
         "nodeDesc": "弥章",
@@ -8889,8 +8315,7 @@ export default {
         "englishName": "弥章",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170203882136",
         "type": 1,
         "nodeDesc": "高泽阳",
@@ -8905,8 +8330,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170204956832",
         "type": 1,
         "nodeDesc": "邓真华",
@@ -8921,8 +8345,7 @@ export default {
         "englishName": "季凌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170205464153",
         "type": 1,
         "nodeDesc": "朱家颖",
@@ -8937,8 +8360,7 @@ export default {
         "englishName": "艾萱",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170207220100",
         "type": 1,
         "nodeDesc": "肖启东",
@@ -8953,8 +8375,7 @@ export default {
         "englishName": "哲良",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160516132048040454",
         "type": 1,
         "nodeDesc": "谢春梅",
@@ -8985,8 +8406,7 @@ export default {
             "modifyTime": "2016-05-16 13:20:48",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1606212131255042816vt07649",
             "number": "20160516132048040454",
             "companyNO": "20160514232049697402",
@@ -9004,8 +8424,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170125171531627160",
         "type": 1,
         "nodeDesc": "兰萍",
@@ -9037,8 +8456,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170228215153",
         "type": 1,
         "nodeDesc": "张潇",
@@ -9053,8 +8471,7 @@ export default {
         "englishName": "一鹤",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170229664151",
         "type": 1,
         "nodeDesc": "王泓",
@@ -9069,8 +8486,7 @@ export default {
         "englishName": "言恩",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170229909481",
         "type": 1,
         "nodeDesc": "曾茂",
@@ -9085,8 +8501,7 @@ export default {
         "englishName": "争渡",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170230083986",
         "type": 1,
         "nodeDesc": "王兵",
@@ -9101,8 +8516,7 @@ export default {
         "englishName": "展漠",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170231164114",
         "type": 1,
         "nodeDesc": "蒋瑶清",
@@ -9117,8 +8531,7 @@ export default {
         "englishName": "弦落",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170231375154",
         "type": 1,
         "nodeDesc": "张潇",
@@ -9133,8 +8546,7 @@ export default {
         "englishName": "一鹤",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170231514137",
         "type": 1,
         "nodeDesc": "吴诗玥",
@@ -9149,8 +8561,7 @@ export default {
         "englishName": "灵雪",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170231732145",
         "type": 1,
         "nodeDesc": "王雪丽",
@@ -9165,8 +8576,7 @@ export default {
         "englishName": "奈兮",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170231981122",
         "type": 1,
         "nodeDesc": "李盛乐",
@@ -9181,8 +8591,7 @@ export default {
         "englishName": "半月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170232267844",
         "type": 1,
         "nodeDesc": "李梦思",
@@ -9197,8 +8606,7 @@ export default {
         "englishName": "沁瑶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170232489324",
         "type": 1,
         "nodeDesc": "陈娇",
@@ -9213,8 +8621,7 @@ export default {
         "englishName": "景烁",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170232525150",
         "type": 1,
         "nodeDesc": "闵俊川",
@@ -9229,8 +8636,7 @@ export default {
         "englishName": "子骞",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170232781576",
         "type": 1,
         "nodeDesc": "臧可义",
@@ -9245,8 +8651,7 @@ export default {
         "englishName": "文可",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233218304",
         "type": 1,
         "nodeDesc": "王兵",
@@ -9261,8 +8666,7 @@ export default {
         "englishName": "展漠",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233369101",
         "type": 1,
         "nodeDesc": "王雪丽",
@@ -9277,8 +8681,7 @@ export default {
         "englishName": "奈兮",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233802180",
         "type": 1,
         "nodeDesc": "曾茜",
@@ -9293,8 +8696,7 @@ export default {
         "englishName": "思睿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170234071996",
         "type": 1,
         "nodeDesc": "王国宇",
@@ -9309,8 +8711,7 @@ export default {
         "englishName": "鼓雨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170234073157",
         "type": 1,
         "nodeDesc": "王国宇",
@@ -9325,8 +8726,7 @@ export default {
         "englishName": "鼓雨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170234322440",
         "type": 1,
         "nodeDesc": "郭亮",
@@ -9357,8 +8757,7 @@ export default {
             "modifyTime": "2017-08-01 14:20:06",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1708171156209499869vt07145",
             "number": "20170722170234322440",
             "companyNO": "20160514232049697402",
@@ -9376,8 +8775,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170234375422",
         "type": 1,
         "nodeDesc": "杨济玮",
@@ -9392,8 +8790,7 @@ export default {
         "englishName": "萤草",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170234916781",
         "type": 1,
         "nodeDesc": "陈娇",
@@ -9408,8 +8805,7 @@ export default {
         "englishName": "景烁",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170235262163",
         "type": 1,
         "nodeDesc": "李晓煌",
@@ -9424,8 +8820,7 @@ export default {
         "englishName": "月华",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170235462840",
         "type": 1,
         "nodeDesc": "李梦思",
@@ -9440,8 +8835,7 @@ export default {
         "englishName": "沁瑶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170235664968",
         "type": 1,
         "nodeDesc": "陈娇",
@@ -9456,8 +8850,7 @@ export default {
         "englishName": "景烁",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236040328",
         "type": 1,
         "nodeDesc": "吴娟",
@@ -9472,8 +8865,7 @@ export default {
         "englishName": "惜柔",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236417902",
         "type": 1,
         "nodeDesc": "王国宇",
@@ -9488,8 +8880,7 @@ export default {
         "englishName": "鼓雨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236741241",
         "type": 1,
         "nodeDesc": "郭亮",
@@ -9521,8 +8912,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236986105",
         "type": 1,
         "nodeDesc": "苟亚明",
@@ -9553,8 +8943,7 @@ export default {
             "modifyTime": "2017-07-25 18:51:39",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707251851524063128vt07145",
             "number": "20170722170236986105",
             "companyNO": "20160514232049697402",
@@ -9572,8 +8961,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236988322",
         "type": 1,
         "nodeDesc": "苟亚明",
@@ -9604,8 +8992,7 @@ export default {
             "modifyTime": "2017-07-25 18:51:39",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707251851524212714vt07145",
             "number": "20170722170236988322",
             "companyNO": "20160514232049697402",
@@ -9623,8 +9010,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170237218123",
         "type": 1,
         "nodeDesc": "王国宇",
@@ -9639,8 +9025,7 @@ export default {
         "englishName": "鼓雨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170237214145",
         "type": 1,
         "nodeDesc": "谢鑫",
@@ -9655,8 +9040,7 @@ export default {
         "englishName": "无定",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170237256180",
         "type": 1,
         "nodeDesc": "谢鑫",
@@ -9671,8 +9055,7 @@ export default {
         "englishName": "无定",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170237377524",
         "type": 1,
         "nodeDesc": "唐旭东",
@@ -9687,8 +9070,7 @@ export default {
         "englishName": "焱淼",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170237818188",
         "type": 1,
         "nodeDesc": "苟亚明",
@@ -9719,8 +9101,7 @@ export default {
             "modifyTime": "2017-07-25 18:51:39",
             "isDelete": 0,
             "modifyUser": ""
-        },
-        {
+        }, {
             "keyID": "1707251851524364951vt07145",
             "number": "20170722170237818188",
             "companyNO": "20160514232049697402",
@@ -9738,8 +9119,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170722170238146189",
         "type": 1,
         "nodeDesc": "米夏",
@@ -9754,8 +9134,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170238363146",
         "type": 1,
         "nodeDesc": "李晓煌",
@@ -9770,8 +9149,7 @@ export default {
         "englishName": "月华",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170238851120",
         "type": 1,
         "nodeDesc": "米夏",
@@ -9786,8 +9164,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170240666109",
         "type": 1,
         "nodeDesc": "吴娟",
@@ -9802,8 +9179,7 @@ export default {
         "englishName": "惜柔",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170242595321",
         "type": 1,
         "nodeDesc": "谢鑫",
@@ -9818,8 +9194,7 @@ export default {
         "englishName": "无定",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170725170318691104",
         "type": 1,
         "nodeDesc": "文道玉",
@@ -9851,8 +9226,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170726083645867394",
         "type": 1,
         "nodeDesc": "戚佳",
@@ -9867,8 +9241,7 @@ export default {
         "englishName": "银莲",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170726083647083163",
         "type": 1,
         "nodeDesc": "李自强",
@@ -9883,8 +9256,7 @@ export default {
         "englishName": "弘祖",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170726083648050134",
         "type": 1,
         "nodeDesc": "李自强",
@@ -9899,8 +9271,7 @@ export default {
         "englishName": "弘祖",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728123303158134",
         "type": 1,
         "nodeDesc": "朱佳伶",
@@ -9915,8 +9286,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170428613127",
         "type": 1,
         "nodeDesc": "张燕玲",
@@ -9931,8 +9301,7 @@ export default {
         "englishName": "寒梅",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170429775128",
         "type": 1,
         "nodeDesc": "郑其英",
@@ -9947,8 +9316,7 @@ export default {
         "englishName": "橙歌",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170431225354",
         "type": 1,
         "nodeDesc": "王玲2",
@@ -9963,8 +9331,7 @@ export default {
         "englishName": "琳羽",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170432320756",
         "type": 1,
         "nodeDesc": "郭成涛",
@@ -9979,8 +9346,7 @@ export default {
         "englishName": "刑天",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170434758176",
         "type": 1,
         "nodeDesc": "星陨",
@@ -9995,8 +9361,7 @@ export default {
         "englishName": "星陨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170435272906",
         "type": 1,
         "nodeDesc": "杨慎",
@@ -10011,8 +9376,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170728170433470153",
         "type": 1,
         "nodeDesc": "何双江",
@@ -10027,8 +9391,7 @@ export default {
         "englishName": "离茶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20160623091325306191",
         "type": 1,
         "nodeDesc": "贺瑶",
@@ -10043,8 +9406,7 @@ export default {
         "englishName": "郭爱",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171529121524",
         "type": 1,
         "nodeDesc": "刘吉",
@@ -10059,8 +9421,7 @@ export default {
         "englishName": "罗通",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115119965111",
         "type": 1,
         "nodeDesc": "朱佳伶",
@@ -10092,8 +9453,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170718170153875152",
         "type": 1,
         "nodeDesc": "苟自梅",
@@ -10108,8 +9468,7 @@ export default {
         "englishName": "婉兮",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170155270129",
         "type": 1,
         "nodeDesc": "朱章进",
@@ -10124,8 +9483,7 @@ export default {
         "englishName": "章涵",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170803114147070566",
         "type": 1,
         "nodeDesc": "涂鑫",
@@ -10157,8 +9515,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20160623091031423142",
         "type": 1,
         "nodeDesc": "涂玲苑",
@@ -10173,8 +9530,7 @@ export default {
         "englishName": "阿九",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171527415189",
         "type": 1,
         "nodeDesc": "李玉培",
@@ -10189,8 +9545,7 @@ export default {
         "englishName": "子龙",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171528236190",
         "type": 1,
         "nodeDesc": "毛俊仁",
@@ -10205,8 +9560,7 @@ export default {
         "englishName": "雷鸣",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171529925898",
         "type": 1,
         "nodeDesc": "肖宇",
@@ -10221,8 +9575,7 @@ export default {
         "englishName": "夕颜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171532440197",
         "type": 1,
         "nodeDesc": "凌云",
@@ -10237,8 +9590,7 @@ export default {
         "englishName": "子敬",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171534141166",
         "type": 1,
         "nodeDesc": "刘代容",
@@ -10253,8 +9605,7 @@ export default {
         "englishName": "弦月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171534939183",
         "type": 1,
         "nodeDesc": "何艳秋",
@@ -10269,8 +9620,7 @@ export default {
         "englishName": "碧菡",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171535808160",
         "type": 1,
         "nodeDesc": "梁德琼",
@@ -10285,8 +9635,7 @@ export default {
         "englishName": "海蓝",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112302659169",
         "type": 1,
         "nodeDesc": "一木（李开彬）-出票运营部",
@@ -10301,8 +9650,7 @@ export default {
         "englishName": "一木",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115130598256",
         "type": 1,
         "nodeDesc": "陈玉兰",
@@ -10317,8 +9665,7 @@ export default {
         "englishName": "白芷",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164556551596",
         "type": 1,
         "nodeDesc": "冯钦",
@@ -10333,8 +9680,7 @@ export default {
         "englishName": "暗香",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164557415103",
         "type": 1,
         "nodeDesc": "陈薇",
@@ -10349,8 +9695,7 @@ export default {
         "englishName": "西决",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170803170622007422",
         "type": 1,
         "nodeDesc": "陈富琴",
@@ -10365,8 +9710,7 @@ export default {
         "englishName": "白裳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170805170651153684",
         "type": 1,
         "nodeDesc": "秦霖",
@@ -10381,8 +9725,7 @@ export default {
         "englishName": "无言",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170805170652734524",
         "type": 1,
         "nodeDesc": "周智林",
@@ -10397,8 +9740,7 @@ export default {
         "englishName": "重山",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170805170653307214",
         "type": 1,
         "nodeDesc": "屠苏",
@@ -10413,8 +9755,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170808080512758111",
         "type": 1,
         "nodeDesc": "杜嘉",
@@ -10429,8 +9770,7 @@ export default {
         "englishName": "倾玖",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170808080513819476",
         "type": 1,
         "nodeDesc": "徐添锐",
@@ -10445,8 +9785,7 @@ export default {
         "englishName": "任风",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170808080514763652",
         "type": 1,
         "nodeDesc": "赵英芬",
@@ -10461,8 +9800,7 @@ export default {
         "englishName": "夏雨",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134853432281",
         "type": 1,
         "nodeDesc": "周廷容",
@@ -10477,8 +9815,7 @@ export default {
         "englishName": "爰姜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134853491164",
         "type": 1,
         "nodeDesc": "周廷容",
@@ -10493,8 +9830,7 @@ export default {
         "englishName": "爰姜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134854089110",
         "type": 1,
         "nodeDesc": "李利娟",
@@ -10509,8 +9845,7 @@ export default {
         "englishName": "依娜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134854211234",
         "type": 1,
         "nodeDesc": "李利娟",
@@ -10525,8 +9860,7 @@ export default {
         "englishName": "依娜",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134854563111",
         "type": 1,
         "nodeDesc": "梅绍明",
@@ -10541,8 +9875,7 @@ export default {
         "englishName": "书竹",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134855241586",
         "type": 1,
         "nodeDesc": "康俊飞",
@@ -10557,8 +9890,7 @@ export default {
         "englishName": "连营",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134855192137",
         "type": 1,
         "nodeDesc": "康俊飞",
@@ -10573,8 +9905,7 @@ export default {
         "englishName": "连营",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170814134855548152",
         "type": 1,
         "nodeDesc": "李文路",
@@ -10606,8 +9937,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170215112327788161",
         "type": 1,
         "nodeDesc": "付群英",
@@ -10622,8 +9952,7 @@ export default {
         "englishName": "简生",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112329382730",
         "type": 1,
         "nodeDesc": "胡双",
@@ -10638,8 +9967,7 @@ export default {
         "englishName": "泠瑶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112330180149",
         "type": 1,
         "nodeDesc": "陈紫英",
@@ -10654,8 +9982,7 @@ export default {
         "englishName": "沫夕",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112332484185",
         "type": 1,
         "nodeDesc": "黄晚秋",
@@ -10670,8 +9997,7 @@ export default {
         "englishName": "晴柔",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170215112334212101",
         "type": 1,
         "nodeDesc": "李博林",
@@ -10686,8 +10012,7 @@ export default {
         "englishName": "云真",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170228112644856570",
         "type": 1,
         "nodeDesc": "何欣",
@@ -10702,8 +10027,7 @@ export default {
         "englishName": "瑶琴",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170302112719523186",
         "type": 1,
         "nodeDesc": "万小芹",
@@ -10718,8 +10042,7 @@ export default {
         "englishName": "二月",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170302112720979104",
         "type": 1,
         "nodeDesc": "何静1",
@@ -10734,8 +10057,7 @@ export default {
         "englishName": "霜翎",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170303112732656105",
         "type": 1,
         "nodeDesc": "高琴",
@@ -10750,8 +10072,7 @@ export default {
         "englishName": "寄瑶",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115126760684",
         "type": 1,
         "nodeDesc": "郭芳琴",
@@ -10766,8 +10087,7 @@ export default {
         "englishName": "琴张",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115127093182",
         "type": 1,
         "nodeDesc": "王志琴",
@@ -10782,8 +10102,7 @@ export default {
         "englishName": "晚致",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115127405113",
         "type": 1,
         "nodeDesc": "马诗莹",
@@ -10798,8 +10117,7 @@ export default {
         "englishName": "香笙",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170419115127839864",
         "type": 1,
         "nodeDesc": "邱瑶函",
@@ -10814,8 +10132,7 @@ export default {
         "englishName": "瑶苏",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170515164605595614",
         "type": 1,
         "nodeDesc": "李代龙",
@@ -10830,8 +10147,7 @@ export default {
         "englishName": "鸿鹄",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170202251142",
         "type": 1,
         "nodeDesc": "龙平屏",
@@ -10846,8 +10162,7 @@ export default {
         "englishName": "冰卿",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170718170204005150",
         "type": 1,
         "nodeDesc": "王小兰",
@@ -10862,8 +10177,7 @@ export default {
         "englishName": "依阳",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233211115",
         "type": 1,
         "nodeDesc": "晏旭龙",
@@ -10878,8 +10192,7 @@ export default {
         "englishName": "千亦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233274928",
         "type": 1,
         "nodeDesc": "晏旭龙",
@@ -10894,8 +10207,7 @@ export default {
         "englishName": "千亦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170233701612",
         "type": 1,
         "nodeDesc": "江久芳",
@@ -10910,8 +10222,7 @@ export default {
         "englishName": "曲江",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236099668",
         "type": 1,
         "nodeDesc": "江久芳",
@@ -10926,8 +10237,7 @@ export default {
         "englishName": "曲江",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236440204",
         "type": 1,
         "nodeDesc": "晏旭龙",
@@ -10942,8 +10252,7 @@ export default {
         "englishName": "千亦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170236442420",
         "type": 1,
         "nodeDesc": "晏旭龙",
@@ -10958,8 +10267,7 @@ export default {
         "englishName": "千亦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170722170239257768",
         "type": 1,
         "nodeDesc": "晏旭龙",
@@ -10974,8 +10282,7 @@ export default {
         "englishName": "千亦",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170726083649218474",
         "type": 1,
         "nodeDesc": "刘佳1",
@@ -10990,8 +10297,7 @@ export default {
         "englishName": "佩玖",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170805170649879178",
         "type": 1,
         "nodeDesc": "杨梅",
@@ -11006,8 +10312,7 @@ export default {
         "englishName": "永慈",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170816134816466716",
         "type": 1,
         "nodeDesc": "彭朔",
@@ -11039,8 +10344,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170816134817047972",
         "type": 1,
         "nodeDesc": "李传岭",
@@ -11072,8 +10376,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170816134817378564",
         "type": 1,
         "nodeDesc": "肖文",
@@ -11088,8 +10391,7 @@ export default {
         "englishName": "文龙",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170125171649623140",
         "type": 1,
         "nodeDesc": "刘芳芳",
@@ -11121,8 +10423,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170817134910550620",
         "type": 1,
         "nodeDesc": "陈良华",
@@ -11137,8 +10438,7 @@ export default {
         "englishName": "",
         "isSeniorExecutive": 0,
         "identityCardInfoList": []
-    },
-    {
+    }, {
         "domainDeptID": "20170817134910954105",
         "type": 1,
         "nodeDesc": "黄敏杰",
@@ -11170,8 +10470,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170817134911409148",
         "type": 1,
         "nodeDesc": "黄凡",
@@ -11203,8 +10502,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170817140554319980",
         "type": 1,
         "nodeDesc": "张三",
@@ -11236,8 +10534,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170818132917651710",
         "type": 1,
         "nodeDesc": "成建宗",
@@ -11269,8 +10566,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170821171044269588",
         "type": 1,
         "nodeDesc": "何波",
@@ -11302,8 +10598,7 @@ export default {
             "isDelete": 0,
             "modifyUser": ""
         }]
-    },
-    {
+    }, {
         "domainDeptID": "20170821171047686762",
         "type": 1,
         "nodeDesc": "谭雪峰",
@@ -11325,2980 +10620,2555 @@ export default {
         "staffNO": "20160516203205451972",
         "staffName": "康珂然",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "CTO",
         "positionNO": "20160804185933812115",
         "staffNO": "20160514233527114164",
         "staffName": "刘飞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "见习高级经理",
         "positionNO": "20160515031938963226",
         "staffNO": "20160515162656033126",
         "staffName": "邓一波",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160516114448588610",
         "staffName": "周双喜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160622182727933179",
         "staffName": "罗洋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160622185954304122",
         "staffName": "魏丹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160622211400684128",
         "staffName": "晏雪峰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623085251271136",
         "staffName": "杨芹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623085416332153",
         "staffName": "刘婷婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623090931989122",
         "staffName": "蒙阿妮",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091204174118",
         "staffName": "汤倩",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091227278122",
         "staffName": "李紫娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091453122179",
         "staffName": "陈小阳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623092652499368",
         "staffName": "范婷婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623092716070656",
         "staffName": "杨雪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623094423776742",
         "staffName": "张瑜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160624093501102148",
         "staffName": "杨莉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160624173257869700",
         "staffName": "杨德丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160624221425926238",
         "staffName": "宋毅慧",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160628112455152157",
         "staffName": "梁国发",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160628192418411446",
         "staffName": "陈杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160628192428094690",
         "staffName": "张桂丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160629111844811884",
         "staffName": "袁婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160701171421615194",
         "staffName": "肖唯",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160701171456695122",
         "staffName": "李雪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160704090727979160",
         "staffName": "肖俊",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160719135024971117",
         "staffName": "曾繁军",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160722200952984162",
         "staffName": "赵雅清",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160725103147492130",
         "staffName": "李春燕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160801182459487161",
         "staffName": "何江英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160818221115186174",
         "staffName": "荣博涵",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160901190158901159",
         "staffName": "张丹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161009190842208321",
         "staffName": "付炳锋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161028105440455682",
         "staffName": "张燕茹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161110183756171832",
         "staffName": "周俊岑",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161117184428265189",
         "staffName": "郑露",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170106152107042254",
         "staffName": "舒芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170119190216516504",
         "staffName": "陈琛",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171453070132",
         "staffName": "李佑中",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171454567175",
         "staffName": "罗昌孜-保洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171455502996",
         "staffName": "汪子霞-保洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171456672101",
         "staffName": "张国君-保洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171457627102",
         "staffName": "张荣娣-保洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171501898140",
         "staffName": "刘雨檀",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171502772138",
         "staffName": "默笙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171503514176",
         "staffName": "李琳1",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171507412143",
         "staffName": "潘阳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171508398914",
         "staffName": "谌雪婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171509207111",
         "staffName": "牟泓铮",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171511176196",
         "staffName": "黄帅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171515508210",
         "staffName": "赵海斌",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171516374100",
         "staffName": "王云福",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171518010126",
         "staffName": "袁芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171519049201",
         "staffName": "谢小会",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171519931150",
         "staffName": "陈玉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171521017180",
         "staffName": "郑小英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171533258361",
         "staffName": "李毅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171558646270",
         "staffName": "陈思",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171600848376",
         "staffName": "谢晓燕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171603219108",
         "staffName": "胡茂兰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171604479660",
         "staffName": "刘越",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171607166166",
         "staffName": "陈茜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171607967892",
         "staffName": "李明艳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171608904131",
         "staffName": "夏慧敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171609668618",
         "staffName": "朱敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171611385147",
         "staffName": "赖梅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171617178131",
         "staffName": "刘丽萍",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171619616177",
         "staffName": "张静",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171620391622",
         "staffName": "周燕平",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171621202701",
         "staffName": "杨柳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171621806716",
         "staffName": "刘莹莹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171622660428",
         "staffName": "李彬彬",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171623440159",
         "staffName": "朱林伟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171624332694",
         "staffName": "伍帅杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171625083121",
         "staffName": "何芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171626751117",
         "staffName": "母媛林",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171628495118",
         "staffName": "邱星",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171630356171",
         "staffName": "嫣然",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171644136381",
         "staffName": "陈静静",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171645054130",
         "staffName": "贺白玲",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171646326164",
         "staffName": "翼之",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171646969934",
         "staffName": "曾敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171647935152",
         "staffName": "熊信春",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171648705828",
         "staffName": "钟映辉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171650912858",
         "staffName": "陈叶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171651700170",
         "staffName": "范润",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171653505170",
         "staffName": "任丽君",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171654466156",
         "staffName": "上官",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171655256174",
         "staffName": "龚丽君",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171656172912",
         "staffName": "苗雪凌",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171657088193",
         "staffName": "肖敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171704409123",
         "staffName": "冯露",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171705568902",
         "staffName": "张莉梅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171706428762",
         "staffName": "刘梦潇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171707514252",
         "staffName": "王静",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171708766125",
         "staffName": "杨青平",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171709589628",
         "staffName": "王吉丹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171716657130",
         "staffName": "周宣龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171717301888",
         "staffName": "何天波",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171717907114",
         "staffName": "姜维",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171718577508",
         "staffName": "杨磊1",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171719900113",
         "staffName": "李刚",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171721256314",
         "staffName": "公瑾测试",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171721889171",
         "staffName": "宋妍妍测试",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171722559180",
         "staffName": "罗嵩",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171723246162",
         "staffName": "罗奇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171724740218",
         "staffName": "俊仪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171725429364",
         "staffName": "九剑",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171726479574",
         "staffName": "望泞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171727595150",
         "staffName": "文宣",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171730508161",
         "staffName": "王露思",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171731147184",
         "staffName": "朱渊",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171732538113",
         "staffName": "陈家容",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171733591292",
         "staffName": "陈芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171734547109",
         "staffName": "若幽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171735206177",
         "staffName": "刘强",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171736623344",
         "staffName": "廖仕杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171738469524",
         "staffName": "汤媛媛",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171739077157",
         "staffName": "彭俊龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171739792175",
         "staffName": "杨国伟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171740985177",
         "staffName": "吴立川",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "CEO",
         "positionNO": "20160514232654747150",
         "staffNO": "20160514233253971976",
         "staffName": "周琳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "CFO",
         "positionNO": "20160812095401098740",
         "staffNO": "20160514232049897912",
         "staffName": "陆玉兰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171546438189",
         "staffName": "汪艳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171557859131",
         "staffName": "张红",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112309687116",
         "staffName": "伍娜娜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112313851122",
         "staffName": "黄涛",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112322671181",
         "staffName": "杨洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112323594886",
         "staffName": "陈秀娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112324584476",
         "staffName": "唐清垚",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112325562187",
         "staffName": "熊丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112326961434",
         "staffName": "黄敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112336059165",
         "staffName": "唐举洪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112336705738",
         "staffName": "王杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112338840330",
         "staffName": "微雨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112344699192",
         "staffName": "彭丽霞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112345651199",
         "staffName": "曹宇豪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112346482145",
         "staffName": "胡江流",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112347315264",
         "staffName": "宋博",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112352403390",
         "staffName": "王燕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170216112336839458",
         "staffName": "运维值班电话",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623092735930117",
         "staffName": "锦桐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170222112842426342",
         "staffName": "祁雨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170225112553230900",
         "staffName": "刘名洋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171537493412",
         "staffName": "朱林",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171551316111",
         "staffName": "罗险青",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161110094837580930",
         "staffName": "王雪燕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091250619850",
         "staffName": "谭艺娜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171615542294",
         "staffName": "王杰1",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171616353159",
         "staffName": "张晨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171526391157",
         "staffName": "陶思凤",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623092807003180",
         "staffName": "汤建强",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160516100320219122",
         "staffName": "王伟伟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160516200708022104",
         "staffName": "程文鹏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160615105750201166",
         "staffName": "周军",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160622085909420177",
         "staffName": "胡展闳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160622085953845175",
         "staffName": "张明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623085801471600",
         "staffName": "刘升",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091811546133",
         "staffName": "吴浪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623092058574126",
         "staffName": "刘小婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623200603662538",
         "staffName": "伍仕霞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160704090819679199",
         "staffName": "李胜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160824135708681128",
         "staffName": "周雪峰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160830111942300158",
         "staffName": "陈姣敏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160901135259990181",
         "staffName": "李昊东",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20161208175957146126",
         "staffName": "罗雪峰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170113095646628244",
         "staffName": "唐精",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171524212218",
         "staffName": "赵恒",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171525690106",
         "staffName": "郑杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171538355107",
         "staffName": "徐智武",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171539632157",
         "staffName": "txbcp",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171540892652",
         "staffName": "通宵班废票",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171541533185",
         "staffName": "彭银",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171542497328",
         "staffName": "陈凤琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171543905116",
         "staffName": "秦洁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171547311176",
         "staffName": "潘文瑞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171548939174",
         "staffName": "刘婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171549706120",
         "staffName": "黄群",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171550516630",
         "staffName": "李璐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171552077136",
         "staffName": "刘瑶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171552725131",
         "staffName": "王敏2",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171554524146",
         "staffName": "雷学琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171555321520",
         "staffName": "张倩",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171556127101",
         "staffName": "张灿",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171631741762",
         "staffName": "王栋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171632356170",
         "staffName": "景天",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171632999546",
         "staffName": "鲁琳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171634113112",
         "staffName": "吕刚",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171635475132",
         "staffName": "王启波",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171636346119",
         "staffName": "苏楠",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171638211786",
         "staffName": "廖加凯",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171642033122",
         "staffName": "李娜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171711578121",
         "staffName": "蒋航",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171714212308",
         "staffName": "孙丽琼",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171715060224",
         "staffName": "耿志",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171728221153",
         "staffName": "罗珍凤",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112305773128",
         "staffName": "赵彩琳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112306740141",
         "staffName": "罗雯婕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112308908198",
         "staffName": "贾坤",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112314795950",
         "staffName": "鲜利红",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112322024152",
         "staffName": "黎欢",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112343893284",
         "staffName": "夏卿",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170217112345376193",
         "staffName": "华安",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170217112346178136",
         "staffName": "徐燕",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170223112548113119",
         "staffName": "刘日",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170228112642070141",
         "staffName": "栾晓琳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170309145107963107",
         "staffName": "田丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170309145111215164",
         "staffName": "郑立健",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170316155043503998",
         "staffName": "余海天",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115118572158",
         "staffName": "余佳珍",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115119207161",
         "staffName": "管婷",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115120434158",
         "staffName": "刘虎跃",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115121383980",
         "staffName": "陈国鑫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115121957612",
         "staffName": "王月",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115123744132",
         "staffName": "雷迅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115124215336",
         "staffName": "李可",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115124510398",
         "staffName": "张潇月",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115124995172",
         "staffName": "田晓红",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115130199330",
         "staffName": "苟俊",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091730830153",
         "staffName": "万文根",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160516100253586143",
         "staffName": "杨衫衫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160630004953815150",
         "staffName": "王辉雄",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170421122513558123",
         "staffName": "王胜彦",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "副总裁",
         "positionNO": "20160804185908661188",
         "staffNO": "20160514233417906156",
         "staffName": "姜元斐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171459914122",
         "staffName": "罗聆",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112316830101",
         "staffName": "黄国升",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170429220035033492",
         "staffName": "徐海东",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164553573990",
         "staffName": "赵天才",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164559906898",
         "staffName": "金柯亦",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164601951167",
         "staffName": "张敬瑜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164602695145",
         "staffName": "刘鉴慧",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164603262586",
         "staffName": "谷钰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164603922103",
         "staffName": "李吴颗星",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164604509184",
         "staffName": "陈瑶瑶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164605045844",
         "staffName": "刘丽莎",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164606277196",
         "staffName": "杨嘉明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164607052154",
         "staffName": "陈晓",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115131646141",
         "staffName": "刘旭东",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170421122514857840",
         "staffName": "王丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170421122515625742",
         "staffName": "彭磊",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170421122516214153",
         "staffName": "杨扬",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170423122544326162",
         "staffName": "罗先文",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170423122544567214",
         "staffName": "尹宗羽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170423122544927361",
         "staffName": "刘益",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164608844776",
         "staffName": "粟兴春",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171504529506",
         "staffName": "胡英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164559247642",
         "staffName": "张艺",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170519183942757168",
         "staffName": "唐凤琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170519190559042376",
         "staffName": "李曼曼",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170519190559678177",
         "staffName": "万艺",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170525212111753110",
         "staffName": "童晶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170603205750059536",
         "staffName": "念之",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192412075189",
         "staffName": "马攀",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192413158167",
         "staffName": "杜远萍",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192413971528",
         "staffName": "张祥宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192414488184",
         "staffName": "胡令",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192414895488",
         "staffName": "李银香",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192416512130",
         "staffName": "白煜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192416951142",
         "staffName": "李鹏政",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170606151138473816",
         "staffName": "龚萍",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170616101908158144",
         "staffName": "谭新宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121134014488",
         "staffName": "龙坤",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121502287161",
         "staffName": "杨微",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620153822450152",
         "staffName": "",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170717203557790176",
         "staffName": "周徐希",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170717203117469149",
         "staffName": "牛震",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170717203941274662",
         "staffName": "欧玲艳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170717204117043988",
         "staffName": "游聪",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170717210906352540",
         "staffName": "曹华",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718140004660954",
         "staffName": "",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171729873674",
         "staffName": "陈杨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112342063534",
         "staffName": "太冲",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170304112742401181",
         "staffName": "宋颖莉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115129020194",
         "staffName": "庞靖",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115131328162",
         "staffName": "黄一凡",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192415957692",
         "staffName": "吕宁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121128850158",
         "staffName": "刘茫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121133849904",
         "staffName": "苗健",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121137378113",
         "staffName": "杨坚",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170616103512033994",
         "staffName": "唐凤琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170605192415454167",
         "staffName": "胡诗婧",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170712162250310576",
         "staffName": "阴晓晨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170705095017725135",
         "staffName": "孙畅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170620121128329169",
         "staffName": "吴成",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170710135325892150",
         "staffName": "黄昌明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170705095021951105",
         "staffName": "梁龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170140356838",
         "staffName": "邓炎胜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170150290191",
         "staffName": "万玉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170150626166",
         "staffName": "苟明兰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170153847556",
         "staffName": "刘庆",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170155705121",
         "staffName": "魏秋双",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170156750508",
         "staffName": "乔楷斐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170157132296",
         "staffName": "肖永臣",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170157334286",
         "staffName": "刘芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170158588481",
         "staffName": "黄昊宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170159003103",
         "staffName": "张晶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170200573155",
         "staffName": "谢代亮",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170200692176",
         "staffName": "李欢平",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170201049154",
         "staffName": "青奎",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170203512956",
         "staffName": "弥章",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170203882136",
         "staffName": "高泽阳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170204956832",
         "staffName": "季凌",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170205464153",
         "staffName": "朱家颖",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170207220100",
         "staffName": "哲良",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160516132048040454",
         "staffName": "谢春梅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171531627160",
         "staffName": "兰萍",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170228215153",
         "staffName": "张潇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170229664151",
         "staffName": "王泓",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170229909481",
         "staffName": "曾茂",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170230083986",
         "staffName": "王兵",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170231164114",
         "staffName": "蒋瑶清",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170231375154",
         "staffName": "张潇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170231514137",
         "staffName": "吴诗玥",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170231732145",
         "staffName": "王雪丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170231981122",
         "staffName": "李盛乐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170232267844",
         "staffName": "李梦思",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170232489324",
         "staffName": "陈娇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170232525150",
         "staffName": "闵俊川",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170232781576",
         "staffName": "臧可义",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233218304",
         "staffName": "王兵",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233369101",
         "staffName": "王雪丽",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233802180",
         "staffName": "曾茜",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170234071996",
         "staffName": "王国宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170234073157",
         "staffName": "王国宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170234322440",
         "staffName": "飞扬",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170234375422",
         "staffName": "杨济玮",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170234916781",
         "staffName": "陈娇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170235262163",
         "staffName": "李晓煌",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170235462840",
         "staffName": "李梦思",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170235664968",
         "staffName": "陈娇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236040328",
         "staffName": "吴娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236417902",
         "staffName": "王国宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236741241",
         "staffName": "飞扬",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236986105",
         "staffName": "苟亚明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236988322",
         "staffName": "苟亚明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170237218123",
         "staffName": "王国宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170237214145",
         "staffName": "谢鑫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170237256180",
         "staffName": "谢鑫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170237377524",
         "staffName": "唐旭东",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170237818188",
         "staffName": "苟亚明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170238146189",
         "staffName": "米夏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170238363146",
         "staffName": "李晓煌",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170238851120",
         "staffName": "米夏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170240666109",
         "staffName": "吴娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170242595321",
         "staffName": "谢鑫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170725170318691104",
         "staffName": "文道玉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170726083645867394",
         "staffName": "戚佳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170726083647083163",
         "staffName": "李自强",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170726083648050134",
         "staffName": "李自强",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728123303158134",
         "staffName": "朱佳伶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170428613127",
         "staffName": "张燕玲",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170429775128",
         "staffName": "郑其英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170431225354",
         "staffName": "王玲2",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170432320756",
         "staffName": "郭成涛",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170434758176",
         "staffName": "星陨",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170435272906",
         "staffName": "杨慎",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170728170433470153",
         "staffName": "何双江",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091325306191",
         "staffName": "贺瑶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171529121524",
         "staffName": "刘吉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115119965111",
         "staffName": "朱佳伶",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170153875152",
         "staffName": "苟自梅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170155270129",
         "staffName": "朱章进",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170803114147070566",
         "staffName": "涂鑫",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20160623091031423142",
         "staffName": "涂玲苑",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171527415189",
         "staffName": "李玉培",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171528236190",
         "staffName": "毛俊仁",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171529925898",
         "staffName": "肖宇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171532440197",
         "staffName": "凌云",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171534141166",
         "staffName": "刘代容",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171534939183",
         "staffName": "何艳秋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171535808160",
         "staffName": "梁德琼",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112302659169",
         "staffName": "一木（李开彬）-出票运营部",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115130598256",
         "staffName": "陈玉兰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164556551596",
         "staffName": "冯钦",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164557415103",
         "staffName": "陈薇",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170803170622007422",
         "staffName": "陈富琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170805170651153684",
         "staffName": "秦霖",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170805170652734524",
         "staffName": "重山",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170805170653307214",
         "staffName": "屠苏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170808080512758111",
         "staffName": "杜嘉",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170808080513819476",
         "staffName": "徐添锐",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170808080514763652",
         "staffName": "赵英芬",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134853432281",
         "staffName": "周廷容",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134853491164",
         "staffName": "周廷容",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134854089110",
         "staffName": "李利娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134854211234",
         "staffName": "李利娟",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134854563111",
         "staffName": "梅绍明",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134855241586",
         "staffName": "康俊飞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134855192137",
         "staffName": "康俊飞",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170814134855548152",
         "staffName": "李文路",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112327788161",
         "staffName": "付群英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112329382730",
         "staffName": "胡双",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112330180149",
         "staffName": "陈紫英",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112332484185",
         "staffName": "黄晚秋",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170215112334212101",
         "staffName": "李博林",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170228112644856570",
         "staffName": "何欣",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170302112719523186",
         "staffName": "万小芹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170302112720979104",
         "staffName": "何静1",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170303112732656105",
         "staffName": "高琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115126760684",
         "staffName": "郭芳琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115127093182",
         "staffName": "王志琴",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115127405113",
         "staffName": "马诗莹",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170419115127839864",
         "staffName": "邱瑶函",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170515164605595614",
         "staffName": "李代龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170202251142",
         "staffName": "龙平屏",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170718170204005150",
         "staffName": "王小兰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233211115",
         "staffName": "晏旭龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233274928",
         "staffName": "晏旭龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170233701612",
         "staffName": "江久芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236099668",
         "staffName": "江久芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236440204",
         "staffName": "晏旭龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170236442420",
         "staffName": "晏旭龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170722170239257768",
         "staffName": "晏旭龙",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170726083649218474",
         "staffName": "刘佳1",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170805170649879178",
         "staffName": "杨梅",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170816134816466716",
         "staffName": "彭朔",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170816134817047972",
         "staffName": "李传岭",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170816134817378564",
         "staffName": "肖文",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170125171649623140",
         "staffName": "刘芳芳",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170817134910550620",
         "staffName": "陈良华",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170817134910954105",
         "staffName": "黄敏杰",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170817134911409148",
         "staffName": "黄凡",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "员工",
         "positionNO": "20160515005238802578",
         "staffNO": "20170817140554319980",
         "staffName": "",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170818132917651710",
         "staffName": "成建宗",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170821171044269588",
         "staffName": "何波",
         "type": 1
-    },
-    {
+    }, {
         "positionName": "",
         "positionNO": "",
         "staffNO": "20170821171047686762",
         "staffName": "谭雪峰",
         "type": 1
     }]
-}
+};

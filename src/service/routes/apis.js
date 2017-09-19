@@ -1,5 +1,7 @@
-let router = require('koa-router')();
-let TODO = require('../model/index');
+
+import Router from 'koa-router'
+import TODO from '../model/index'
+const router = Router()
 
 router.get('/apis/getDeptAndStaff', async (ctx, next) => {
     let todo = new TODO();
@@ -18,4 +20,4 @@ router.get('/apis/getDepartNames', async (ctx, next) => {
     return ctx.body = todo.getDepartNames(ctx.query.p_id);
 });
 
-module.exports = router
+export default router

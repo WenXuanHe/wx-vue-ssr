@@ -24,7 +24,10 @@ export default {
                         self.$router.push({ path: `/selectStaff/${id}` });
                     }
                     // 添加路径时，将父id也添加
-                    self.$store.commit('INSERT_DEPART_NAMES', nodeDesc+"|"+p_id);
+                    self.$store.commit('INSERT_DEPART_NAMES', {
+                        foreNodeCode:p_id,
+                        nodeDesc:nodeDesc
+                    });
                 }
             });
         }

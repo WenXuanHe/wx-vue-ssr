@@ -8,10 +8,20 @@ type Passenger {
     foreNodeCode: String
 }
 
+type Depart{
+    nodeDesc: String
+    foreNodeCode: String
+}
+
 type Query {
-    passenger(domainDeptID: String, type: Int): [Passenger]
+    passenger(p_id: String): [Passenger],
+    commonPassenger: [Passenger],
+    departNames(p_id: String):[Depart],
+    companyInfo:Passenger,
 }
 
 `;
 
+// commonPassenger: [Passenger],
+// companyInfo:Passenger
 export default typeDefs;

@@ -1,4 +1,9 @@
-export default [{
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = [{
     "StaffNo": "20160920094128029304",
     "IsSeniorExecutive": 1,
     "PassengerCertTypeName": "身份证",

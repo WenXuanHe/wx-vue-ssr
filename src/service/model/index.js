@@ -1,6 +1,6 @@
-let data = require('./data');
-let commonPassenger = require('./commonPassenger');
-let _ = require('lodash');
+import data from './data'
+import commonPassenger from './commonPassenger'
+import _ from 'lodash'
 
 class TODO {
     constructor(){
@@ -95,7 +95,10 @@ class TODO {
                 return departNames.reverse();
             }
             
-            departNames.push(hashMap[p_id].nodeDesc+"|"+hashMap[p_id].foreNodeCode);
+            departNames.push({
+                nodeDesc:hashMap[p_id].nodeDesc,
+                foreNodeCode:hashMap[p_id].foreNodeCode
+            });
             
             p_id = hashMap[p_id].foreNodeCode;
         }
@@ -104,5 +107,5 @@ class TODO {
     }
 };
 
-module.exports = TODO;
+export default TODO;
 

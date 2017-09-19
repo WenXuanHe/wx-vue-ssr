@@ -1,7 +1,7 @@
 <template>
     <!-- 面包屑导航 -->
     <div class="memberTree_nav">
-        <a class="superior" href="javascript:void(0);" v-for="(item,i) in departNames" :key="i" @click="goBack(i, item.split('|')[1])">{{item.split('|')[0]}}></a>
+        <a class="superior" href="javascript:void(0);" v-for="(item,i) in departNames" :key="i" @click="goBack(i, item.foreNodeCode)">{{item.nodeDesc}}></a>
         <!-- <span class="curreny">{{current}}</span> -->
     </div>
 </template>
