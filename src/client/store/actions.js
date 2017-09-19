@@ -1,6 +1,5 @@
-import axios from 'axios'
-import getCharacter from '../utils/getCharacter'
-
+import getCharacter from '$utils/getCharacter'
+import {getDeptAndStaff, getCompanyInfo, getDepartNames, getCommonPassengerList} from '../apis/graphql'
 /**
  * string轉換大寫
  * @param {*string} str  
@@ -9,33 +8,45 @@ export const toUpperCase = (str) => String.prototype.toUpperCase.call(str)
 
 export default {
 
-    getDeptAndStaff({ commit }, {p_id, success}){
-        return axios.get('/apis/getDeptAndStaff', {params:{p_id}}).then(({data}) => {
-            data.forEach(function(elem) {
+    async getDeptAndStaff({ commit }, {p_id, success}){
+        try{
+            let result = await getDeptAndStaff(p_id);
+            result.passenger.forEach(function(elem) {
                 if(elem.type === 1){
                     elem.character = toUpperCase(getCharacter.makePy(elem.nodeDesc)[0].slice(0, 1));
                 }
             });
-            success && success(data);
-            commit('INJECT_PERSONS', data);
-        });
+            success && success(result.passenger);
+            commit('INJECT_PERSONS', result.passenger);
+        }catch(e){
+            console.log('查询部门和员工信息失败', e);
+        }
     },
 
-    getCompanyInfo({ commit }){
-        return axios.get('/apis/getCompanyInfo').then(({data}) => {
-            commit('INJECT_ROOT', {companyName:data.nodeDesc, companyNO:data.domainDeptID});
-        });
+    async getCompanyInfo({ commit }){
+        try{
+            let result = await getCompanyInfo();
+            commit('INJECT_ROOT', {companyName:result.companyInfo.nodeDesc, companyNO:result.companyInfo.domainDeptID});
+        }catch(e){
+            console.log('查询公司信息失败', e);
+        }
     },
 
-    getDepartNames({commit}, p_id){
-        return axios.get('/apis/getDepartNames', {params:{p_id}}).then(({data}) => {
-            commit('INSERT_DEPART_NAMES', data);
-        });
+    async getDepartNames({commit}, p_id){
+        try{
+            let result = await getDepartNames(p_id);
+            commit('INSERT_DEPART_NAMES', result.departNames);
+        }catch(e){
+            console.log('查询公司信息失败', e);
+        }
     },
 
-    getCommonPassengerList({commit}){
-        return axios.get('/apis/getCommonPassengerList').then(({data}) => {
-            commit('INSERT_COMMON_PASSENGERS', data);
-        });
+    async getCommonPassengerList({commit}){
+        try{
+            let result = await getCommonPassengerList();
+            commit('INSERT_COMMON_PASSENGERS', result.commonPassenger);
+        }catch(e){
+            console.log('查询公司信息失败', e);
+        }
     }
 }

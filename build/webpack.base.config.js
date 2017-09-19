@@ -44,7 +44,27 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                use: ['babel-loader'],
+                use: [{
+                    loader: 'babel-loader',
+                    options:{
+                        "presets": [
+                          ["env", {
+                            "modules": false,
+                            "targets": {
+                              "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+                            }
+                          }],
+                          "stage-2"
+                        ],
+                        "plugins": ["transform-runtime"],
+                        "env": {
+                          "test": {
+                            "presets": ["env", "stage-2"],
+                            "plugins": ["istanbul"]
+                          }
+                        }
+                      }
+                }],
                 exclude: /node_modules/
             },
             {
