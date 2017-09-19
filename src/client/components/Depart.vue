@@ -1,7 +1,7 @@
 <template>
     <ul class="weui_cells_access">
         <li v-for="depart in departList" :key='depart.domainDeptID' class="weui_cell">
-            <a href="javascript:void(0);" @click="goNextDeptOrMember(depart.domainDeptID, depart.nodeDesc)">{{depart.nodeDesc}}</a>
+            <a href="javascript:void(0);" @click="goNextDeptOrMember(depart.domainDeptID, depart.nodeDesc, depart.foreNodeCode)">{{depart.nodeDesc}}</a>
             <div class="weui_cell_ft"></div>
         </li>
     </ul>
@@ -11,17 +11,10 @@
 <script>
 export default {
     props: ['departList'],
-
-    watch:{
-        '$route' (to, from) {
-            if(!to.query.advance){
-                 this.$store.dispatch('getDeptAndStaff', { p_id: to.params.p_id});
-            }
-        }
-    },
     methods: {
-        goNextDeptOrMember(id, nodeDesc) {
+        goNextDeptOrMember(id, nodeDesc, p_id) {
             var self = this;
+            //先判断以当前id为父id下是否还存在部门，如存在，则调用自身组件，没有部门，跳转到选择员工界面
             this.$store.dispatch('getDeptAndStaff', {
                 p_id: id,
                 success: function(data) {
@@ -30,7 +23,8 @@ export default {
                     } else {
                         self.$router.push({ path: `/selectStaff/${id}` });
                     }
-                    self.$store.commit('INSERT_DEPART_NAMES', nodeDesc);
+                    // 添加路径时，将父id也添加
+                    self.$store.commit('INSERT_DEPART_NAMES', nodeDesc+"|"+p_id);
                 }
             });
         }

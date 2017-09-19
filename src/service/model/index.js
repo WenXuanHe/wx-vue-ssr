@@ -95,7 +95,7 @@ class TODO {
                 return departNames.reverse();
             }
             
-            departNames.push(hashMap[p_id].nodeDesc);
+            departNames.push(hashMap[p_id].nodeDesc+"|"+hashMap[p_id].foreNodeCode);
             
             p_id = hashMap[p_id].foreNodeCode;
         }

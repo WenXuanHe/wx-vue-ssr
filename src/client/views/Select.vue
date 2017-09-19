@@ -23,7 +23,7 @@ export default {
           actions.getCommonPassengerList({commit: store.commit}),
           actions.getDepartNames({commit: store.commit}, router.params.p_id),
           actions.getCompanyInfo({commit: store.commit})
-      ]);
+      ])
   },
   components: {  
       ChangeClasses, 
