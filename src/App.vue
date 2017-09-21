@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <!-- 路由出口 -->
-        <div class="content">
+        <div class="select">
              <!-- 路由匹配到的组件将渲染在这里 -->
             <router-view></router-view>
         </div>
@@ -13,10 +13,8 @@
         --bc:#fefefe;
         --h: 80px;
     }
-    .nav{
-        height: var(--h);
-        line-height: var(--h);
-        background-color: var(--bc);
+    .select{
+        
     }
 
 </style>
