@@ -1,11 +1,11 @@
 <template>
     <div>
-        <div class="memberTree" v-for="(value, key) in MapMembers" :key="key" style="position:relative">
-            <div class="memberTree_title" v-if="value.length">{{key}}</div>
-            <ul class="memberTree_ul">
+        <div class="s-staff" v-for="(value, key) in MapMembers" :key="key" style="position:relative">
+            <div class="s-staff-title" v-if="value.length">{{key}}</div>
+            <ul class="s-staff-list">
                 <li v-for="item in value"
                     :key="item.domainDeptID" 
-                    :class="{ 'choose': choosedPersons.indexOf(item) > -1}" 
+                    class="s-staff-color" :class="{ 'choose': choosedPersons.indexOf(item) > -1}" 
                     @click="choosePassenger(item, $event)">
                     {{item.nodeDesc}}
                 </li>

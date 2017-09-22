@@ -1,35 +1,12 @@
 <template>
     <ul class="weui_cells_access">
-        <li v-for="depart in departList" :key='depart.domainDeptID' class="weui_cell weui_cell-color">
-            <a href="javascript:void(0);" @click="goNextDeptOrMember(depart.domainDeptID, depart.nodeDesc, depart.foreNodeCode)">{{depart.nodeDesc}}</a>
+        <li v-for="depart in departList" :key='depart.domainDeptID' 
+            class="weui_cell weui_cell-color" 
+            @click="goNextDeptOrMember(depart.domainDeptID, depart.nodeDesc, depart.foreNodeCode)">
+                <a href="javascript:void(0);">{{depart.nodeDesc}}</a>
         </li>
     </ul>
 </template>
-
-<style lang="postcss">
-
-.weui_cell {
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #DDDDDD;
-}
-.weui_cell-color{
-    background: #ffffff;
-}
-.weui_cell::before {
-    display: inline-block;
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-left: 1px solid #DDDDDD;
-    border-bottom: 1px solid #dddddd;
-    margin: 0 5%;
-}
-
-.weui_cell a{
-    color: #000000;
-}
-</style>
 
 <script>
 export default {

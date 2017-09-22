@@ -18,9 +18,9 @@ module.exports = {
                         options: {
                             loaders: {
                                 'css': ExtractTextPlugin.extract({
-                                    fallback: 'style-loader',
+                                    fallback: 'vue-style-loader',
                                     //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
-                                    use: ['css-loader', 'postcss-loader']
+                                    use: ['vue-css-loader', 'postcss-loader']
                                 }),
                                 'scss': ExtractTextPlugin.extract({
                                     fallback: 'style-loader',

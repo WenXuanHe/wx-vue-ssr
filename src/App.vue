@@ -7,32 +7,10 @@
     </div>
 </template>
 
-<style>
-@import './client/styles/mixin.css';
-
-.s-header {
-    @mixin h50;
-    text-align: center;
-    &::before {
-        content: '<';
-        display: inline;
-        clear: both;
-        position: absolute;
-        left: 0px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-.s-header-color {
-    background-color: var(--header-bc);
-    color: var(--header-c);
-}
-
-</style>
 
 <script>
 import '$styles/reset.css'
+import '$styles/index.css'
 import SelectHeader from '$components/Header';
 
 export default {

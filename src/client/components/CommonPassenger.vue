@@ -15,19 +15,6 @@
     </div>
 </template>
 
-<style>
-@import '../styles/mixin.css';
-.s-comPas-header {
-    font-size: 18px;
-    @mixin h50;
-}
-
-.s-comPas-header-color {
-    background: var(--header-c);
-    border-bottom: 1px solid #DDDDDD;
-}
-</style>
-
 <script>
 import ComPasHeader from './Header';
 
