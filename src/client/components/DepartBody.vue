@@ -3,7 +3,6 @@
         <depart :departList="departList"></depart>
         <staff :Members="staffList" :choosedPersons="choosedPersons" v-if="hasStaff"></staff>
     </div>
-   
 </template>
 
 

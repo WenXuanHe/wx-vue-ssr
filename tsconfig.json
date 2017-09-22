@@ -13,7 +13,8 @@
             "$router/*": ["src/client/router/*"],
             "$store/*": ["src/client/store/*"],
             "$utils/*": ["src/client/utils/*"],
-            "$views/*": ["src/client/views/*"]
+            "$views/*": ["src/client/views/*"],
+            "$styles/*": ["src/client/styles/*"]
         }
     },
     "include": [

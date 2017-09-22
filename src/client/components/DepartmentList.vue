@@ -1,21 +1,35 @@
 <template>
   <div class="deptTree">
-		<depart-title></depart-title>
+		<depart-header :classObject="classObject" :title="companyName"></depart-header>
     <depart-body></depart-body>
   </div>
 </template>
 
 <script>
 
-import DepartTitle from './DepartTitle.vue'
+import DepartHeader from './Header.vue';
 import DepartBody from './DepartBody.vue'
 
 export default {
   
+  computed: {
+      companyName(){
+          return this.$store.state.root.companyName;
+      }
+  },
   components:{
-    "depart-title" : DepartTitle,
-    "depart-body":DepartBody
-  }
+    DepartHeader,
+    DepartBody
+  },
+
+  data: function(){
+        return {
+            classObject: {
+                's-comPas-header':true,
+                's-comPas-header-color': true
+            }
+        }
+    },
  
 }
 </script>

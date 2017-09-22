@@ -1,6 +1,6 @@
 <template>
     <div>
-        <change-classes></change-classes>
+        <!-- <change-classes></change-classes> -->
         <common-passenger></common-passenger>
         <curmbs></curmbs>  
         <department-list ></department-list>

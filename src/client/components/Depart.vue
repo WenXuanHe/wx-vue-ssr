@@ -1,12 +1,35 @@
 <template>
     <ul class="weui_cells_access">
-        <li v-for="depart in departList" :key='depart.domainDeptID' class="weui_cell">
+        <li v-for="depart in departList" :key='depart.domainDeptID' class="weui_cell weui_cell-color">
             <a href="javascript:void(0);" @click="goNextDeptOrMember(depart.domainDeptID, depart.nodeDesc, depart.foreNodeCode)">{{depart.nodeDesc}}</a>
-            <div class="weui_cell_ft"></div>
         </li>
     </ul>
 </template>
 
+<style lang="postcss">
+
+.weui_cell {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.weui_cell-color{
+    background: #ffffff;
+}
+.weui_cell::before {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-left: 1px solid #DDDDDD;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 5%;
+}
+
+.weui_cell a{
+    color: #000000;
+}
+</style>
 
 <script>
 export default {
@@ -19,14 +42,14 @@ export default {
                 p_id: id,
                 success: function(data) {
                     if (data.filter(item => item.type === 2).length > 0) {
-                        self.$router.push({ path: `/index/${id}`});
+                        self.$router.push({ path: `/index/${id}` });
                     } else {
                         self.$router.push({ path: `/selectStaff/${id}` });
                     }
                     // 添加路径时，将父id也添加
                     self.$store.commit('INSERT_DEPART_NAMES', {
-                        foreNodeCode:p_id,
-                        nodeDesc:nodeDesc
+                        foreNodeCode: p_id,
+                        nodeDesc: nodeDesc
                     });
                 }
             });

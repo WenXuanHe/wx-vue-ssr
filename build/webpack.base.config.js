@@ -18,12 +18,12 @@ module.exports = {
                         options: {
                             loaders: {
                                 'css': ExtractTextPlugin.extract({
-                                    fallback: 'vue-style-loader',
+                                    fallback: 'style-loader',
                                     //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
                                     use: ['css-loader', 'postcss-loader']
                                 }),
                                 'scss': ExtractTextPlugin.extract({
-                                    fallback: 'vue-style-loader',
+                                    fallback: 'style-loader',
                                     //如果需要，可以在 postcss-loader 之前将 resolve-url-loader 链接进来
                                     use: ['css-loader', 'sass-loader']
                                 })
@@ -94,7 +94,8 @@ module.exports = {
             '$router': path.resolve(__dirname, "../", 'src/client/router'),
             '$store': path.resolve(__dirname, "../", 'src/client/store'),
             '$utils': path.resolve(__dirname, "../", 'src/client/utils'),
-            '$views': path.resolve(__dirname, "../", 'src/client/views')
+            '$views': path.resolve(__dirname, "../", 'src/client/views'),
+            '$styles': path.resolve(__dirname, "../", 'src/client/styles')
         }
     },
     plugins: [
