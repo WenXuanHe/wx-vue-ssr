@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue test</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="https://cdn.bootcss.com/vue/2.4.4/vue.js"></script>
+
+    <script>
+        // create constructor
+    var Profile = Vue.extend({
+      template: '<p>{{firstName}} {{lastName}} aka {{alias}}</p>',
+      props:['firstName'],
+      data: function () {
+        return {
+          lastName: 'White',
+          alias: 'Heisenberg'
+        }
+      }
+    })
+    // create an instance of Profile and mount it on an element
+    new Profile().$mount('#app')
+    </script>
+</body>
+</html>
